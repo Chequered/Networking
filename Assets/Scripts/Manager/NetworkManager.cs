@@ -13,12 +13,12 @@ public class NetworkManager : MonoBehaviour
 
     private static float refreshRequestLength = 3f;
 
-    private bool joinAfterRegister;
-
     private void Start()
     {
-        MasterServer.ipAddress = IP;
-        MasterServer.port = PORT;
+        //MasterServer.ipAddress = IP;
+        //MasterServer.port = PORT;
+        //Network.natFacilitatorIP = IP;
+        //Network.natFacilitatorPort = 50005;
     }
 
 	public static void StartServer()
@@ -37,8 +37,7 @@ public class NetworkManager : MonoBehaviour
         if (GUI.Button(new Rect(65, 65, 120, 35), "Start Server"))
         {
             StartServer();
-            StartCoroutine(RefreshHostList());
-            joinAfterRegister = true;
+            Invoke("RefreshAndJoin", 0.5f);
         }
     }
 
@@ -47,12 +46,15 @@ public class NetworkManager : MonoBehaviour
         if(mEvent == MasterServerEvent.RegistrationSucceeded)
         {
             Debug.Log("Registration succesful!");
-            //if (joinAfterRegister)
-                //SceneManager.JoinGame(hostData[hostData.Length - 1]);
         }
     }
 
-    public static IEnumerator RefreshHostList()
+    public void RefreshAndJoin()
+    {
+        StartCoroutine(RefreshHostList(true));
+    }
+
+    public static IEnumerator RefreshHostList(bool joinLatest = false)
     {
         Debug.Log("Refreshing..");
         isRefreshing = true;
@@ -74,6 +76,11 @@ public class NetworkManager : MonoBehaviour
         }
         Debug.Log(hostData.Length + " servers found.");
         isRefreshing = false;
+
+        if(joinLatest)
+        {
+            SceneManager.Instance.JoinGame(hostData[hostData.Length - 1]);
+        }
     }
 
     public static void UnRegisterGame()
