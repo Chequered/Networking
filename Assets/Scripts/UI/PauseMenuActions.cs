@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PauseMenuActions : MonoBehaviour {
 
+    [SerializeField] public GameObject serverList;
+
     CanvasGroup m_canvasGroup;
 
     private void Start()
@@ -36,7 +38,10 @@ public class PauseMenuActions : MonoBehaviour {
 
     public void ShowServerList()
     {
-        //
+        if(serverList != null)
+        {
+            serverList.GetComponent<ServerList>().OpenServerList();
+        }
     }
 
     public void ShowOptions()

@@ -4,28 +4,40 @@ using System.Collections;
 public class NetworkManager : MonoBehaviour
 {
     public static HostData[] hostData;
+    public static bool isRefreshing;
 
     private const string REGISTERED_GAME_NAME = "MainserverName-0";
-    private const int MAX_PLAYERS = 16;
+    private const int MAX_CLIENTS = 15;
+    private const string IP = "127.0.0.1";
+    private const int PORT = 23466;
 
-    private static bool isRefreshing = false;
     private static float refreshRequestLength = 3f;
 
     private void Start()
     {
         gameObject.AddComponent<BuildingManager>();
         gameObject.AddComponent<GridManager>();
+        MasterServer.ipAddress = IP;
+        MasterServer.port = PORT;
     }
 
 	public static void StartServer()
     {
-        Network.InitializeServer(MAX_PLAYERS, 25002, false);
+        Network.InitializeServer(MAX_CLIENTS, 25002, false);
         MasterServer.RegisterHost(REGISTERED_GAME_NAME, "Master test server", "comment");
     }
 
     private void OnServerInitialized()
     {
         Debug.Log("Server has been initialized");
+    }
+
+    private void OnGUI()
+    {
+        if (GUI.Button(new Rect(65, 65, 120, 35), "Start Server"))
+        {
+            StartServer();
+        }
     }
 
     private void OnMasterServerEvent(MasterServerEvent mEvent)
@@ -39,6 +51,7 @@ public class NetworkManager : MonoBehaviour
     public static IEnumerator RefreshHostList()
     {
         Debug.Log("Refreshing..");
+        isRefreshing = true;
 
         MasterServer.RequestHostList(REGISTERED_GAME_NAME);
 
@@ -55,6 +68,8 @@ public class NetworkManager : MonoBehaviour
         {
             Debug.Log("No active servers has been found");
         }
+        Debug.Log(hostData.Length + " servers found.");
+        isRefreshing = false;
     }
 
     public static void UnRegisterGame()
