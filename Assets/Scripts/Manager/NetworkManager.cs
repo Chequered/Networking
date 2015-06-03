@@ -13,10 +13,10 @@ public class NetworkManager : MonoBehaviour
 
     private static float refreshRequestLength = 3f;
 
+    private bool joinAfterRegister;
+
     private void Start()
     {
-        gameObject.AddComponent<BuildingManager>();
-        gameObject.AddComponent<GridManager>();
         MasterServer.ipAddress = IP;
         MasterServer.port = PORT;
     }
@@ -37,6 +37,8 @@ public class NetworkManager : MonoBehaviour
         if (GUI.Button(new Rect(65, 65, 120, 35), "Start Server"))
         {
             StartServer();
+            StartCoroutine(RefreshHostList());
+            joinAfterRegister = true;
         }
     }
 
@@ -45,6 +47,8 @@ public class NetworkManager : MonoBehaviour
         if(mEvent == MasterServerEvent.RegistrationSucceeded)
         {
             Debug.Log("Registration succesful!");
+            //if (joinAfterRegister)
+                //SceneManager.JoinGame(hostData[hostData.Length - 1]);
         }
     }
 
