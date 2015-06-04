@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameLobby : MonoBehaviour {
+public class GameLobby {
 
     private TeamData[] m_teams;
 
@@ -23,14 +23,52 @@ public class GameLobby : MonoBehaviour {
         }
     }
 
-    public void JoinTeam(Team color, Player player)
+    public void JoinTeam(Team teamColor, Player player, int id)
     {
         foreach (TeamData team in m_teams)
         {
-            if(team.Color == color)
+            if (team.Color == teamColor)
             {
-                team.AddNewPlayer(player);
+                team.AddNewPlayer(player, id);
             }
         }
+    }
+
+    public void LeaveTeam(Team teamColor, int teamID)
+    {
+        foreach (TeamData team in m_teams)
+        {
+            if (team.Color == teamColor)
+            {
+                team.RemovePlayer(teamID);
+            }
+        }
+    }
+
+    public bool SlotAvaiable(Team teamColor , int teamID)
+    {
+        foreach (TeamData team in m_teams)
+        {
+            if (team.Color == teamColor)
+            {
+                if (team.Players[teamID - 1] == null)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public TeamData GetTeam(Team teamColor)
+    {
+        foreach (TeamData team in m_teams)
+        {
+            if (team.Color == teamColor)
+            {
+                return team;
+            }
+        }
+        return null;
     }
 }

@@ -12,7 +12,7 @@ public class TeamData {
         m_team = teamColor;
     }
 
-    public void AddNewPlayer(Player player)
+    public void AddNewPlayer(Player player, int id)
     {
         if(m_amountOfMembers + 1 > 4)
         {
@@ -21,13 +21,15 @@ public class TeamData {
         }
         else
         {
-            m_players[m_amountOfMembers + 1] = player;
+            m_players[id - 1] = player;
+            m_amountOfMembers++;
         }
     }
 
-    public void RemovePlayer(Player player)
+    public void RemovePlayer(int teamID)
     {
-        m_players[System.Array.IndexOf(m_players, player)] = null;
+        m_players[teamID - 1] = null;
+        m_amountOfMembers--;
     }
 
     public Player[] Players
@@ -43,6 +45,57 @@ public class TeamData {
         get
         {
             return m_team;
+        }
+    }
+
+    public static int TeamIDByColor(Team color)
+    {
+        switch (color)
+	    {
+            case Team.Blue:
+                return 1;
+            case Team.Red:
+                return 2;
+            case Team.Yellow:
+                return 3;
+            case Team.Green:
+                return 4;
+		    default:
+                return 0;
+	    }
+    }
+
+    public static Team TeamColorByID(int ID)
+    {
+        switch (ID)
+	    {
+            case 1:
+                return Team.Blue;
+            case 2:
+                return Team.Red;
+            case 3:
+                return Team.Yellow;
+            case 4:
+                return Team.Green;
+		    default:
+                return Team.None;
+	    }
+    }
+
+    public static Team TeamColorByString(string teamName)
+    {
+        switch (teamName)
+        {
+            case "Blue":
+                return Team.Blue;
+            case "Red":
+                return Team.Red;
+            case "Yellow":
+                return Team.Yellow;
+            case "Green":
+                return Team.Green;
+            default:
+                return Team.None;
         }
     }
 }

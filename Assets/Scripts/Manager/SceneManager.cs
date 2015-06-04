@@ -3,10 +3,29 @@ using System.Collections;
 
 public class SceneManager : MonoBehaviour {
 
-	public static void JoinGame(HostData server)
+    public static SceneManager Instance;
+
+    private void Start()
     {
-        Debug.Log("Joined server");
+        Instance = this;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            Application.LoadLevel(0);
+        } 
+    }
+
+	public void JoinGame(HostData server)
+    {
         Network.Connect(server);
+        BuildScene();
+    }
+
+    public void BuildScene()
+    {
         CanvasManager.Instance.CloseAllMenus();
         GridManager.Instance.GenerateGrid();
     }

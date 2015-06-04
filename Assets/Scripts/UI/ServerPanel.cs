@@ -8,7 +8,7 @@ public class ServerPanel : MonoBehaviour {
     [SerializeField] private Text m_serverName;
     [SerializeField] private Text m_serverPing;
 
-    private HostData host;
+    private HostData m_host;
 
     public void SetPosition(int index)
     {
@@ -23,11 +23,12 @@ public class ServerPanel : MonoBehaviour {
         m_playerCount.text = data.connectedPlayers + "/" + data.playerLimit;
         m_serverName.text = data.gameName;
         m_serverPing.text = "0";
+        m_host = data;
     }
 
     public void Join()
     {
-        SceneManager.JoinGame(host);
+        GameObject.Find("New Server Panel").GetComponent<ServerNewPanel>().JoinAsClient(m_host);
     }
 
 }
