@@ -26,12 +26,11 @@ public class Building{
         m_hp = hp;
     }
 
-    public void Build(Player player, BuildingType type)
+    public void Build(Team team, BuildingType type)
     {
         m_type = type;
         m_size = SizeByType(type);
-        m_team = player.Team;
-        player.TakeResources(CostByType(type));
+        m_team = team;
     }
 
     public void DealDamage(int dmg)
@@ -100,7 +99,7 @@ public class Building{
 
     #endregion
 
-    private int SizeByType(BuildingType type)
+    public static int SizeByType(BuildingType type)
     {
         switch (type)
         {
@@ -125,19 +124,41 @@ public class Building{
         }
     }
 
-    private int CostByType(BuildingType type)
+    public static BuildingType TypeById(int ID)
+    {
+        switch (ID)
+        {
+            case 1:
+                return BuildingType.Wall;
+            case 2:
+                return BuildingType.Turret;
+            case 3:
+                return BuildingType.Resource;
+            case 4:
+                return BuildingType.Cannon;
+            case 5:
+                return BuildingType.HeadQuarters;
+            default:
+                return BuildingType.Wall;
+        }
+    }
+
+    public static int IdByType(BuildingType type)
     {
         switch (type)
         {
             case BuildingType.Wall:
-                return 10;
-                break;
+                return 1;
             case BuildingType.Turret:
-                return 50;
-                break;
+                return 2;
+            case BuildingType.Resource:
+                return 3;
+            case BuildingType.Cannon:
+                return 4;
+            case BuildingType.HeadQuarters:
+                return 5;
             default:
-                return 0;
-                break;
+                return 1;
         }
     }
 }

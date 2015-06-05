@@ -5,26 +5,33 @@ public class NetworkManager : MonoBehaviour
 {
     public static HostData[] hostData;
     public static bool isRefreshing;
+    public static string clientPlayerName = "Unnamed";
 
-    private const string REGISTERED_GAME_NAME = "MainserverName-0";
+    private const string REGISTERED_GAME_NAME = "BasedGame-Official";
     private const int MAX_CLIENTS = 15;
     private const string IP = "127.0.0.1";
     private const int PORT = 23466;
 
-    private static float refreshRequestLength = 3f;
+    private static float refreshRequestLength = 1.25f;
 
     private void Start()
     {
-        gameObject.AddComponent<BuildingManager>();
-        gameObject.AddComponent<GridManager>();
-        MasterServer.ipAddress = IP;
-        MasterServer.port = PORT;
+        //MasterServer.ipAddress = IP;
+        //MasterServer.port = PORT;
+        //Network.natFacilitatorIP = IP;
+        //Network.natFacilitatorPort = 50005;
     }
 
-	public static void StartServer()
+	public static void StartGame()
     {
+        SceneManager.Instance.BuildScene();
+    }
+
+    public static void StartLobby(string lobbyName, string description, string password)
+    {
+        Network.incomingPassword = password;
         Network.InitializeServer(MAX_CLIENTS, 25002, false);
-        MasterServer.RegisterHost(REGISTERED_GAME_NAME, "Master test server", "comment");
+        MasterServer.RegisterHost(REGISTERED_GAME_NAME, lobbyName, description);
     }
 
     private void OnServerInitialized()
@@ -32,12 +39,19 @@ public class NetworkManager : MonoBehaviour
         Debug.Log("Server has been initialized");
     }
 
-    private void OnGUI()
+    private void OnPlayerConnected(NetworkPlayer player)
     {
-        if (GUI.Button(new Rect(65, 65, 120, 35), "Start Server"))
-        {
-            StartServer();
-        }
+        Debug.Log("Player connected from: " + player.ipAddress);
+    }
+
+    private void OnConnectedToServer()
+    {
+        Debug.Log("Connected to the server!");
+    }
+
+    private void OnFailedToConnect(NetworkConnectionError error)
+    {
+        Debug.LogError(error);
     }
 
     private void OnMasterServerEvent(MasterServerEvent mEvent)
@@ -48,7 +62,12 @@ public class NetworkManager : MonoBehaviour
         }
     }
 
-    public static IEnumerator RefreshHostList()
+    public void RefreshAndJoin()
+    {
+        StartCoroutine(RefreshHostList(true));
+    }
+
+    public static IEnumerator RefreshHostList(bool joinLatest = false)
     {
         Debug.Log("Refreshing..");
         isRefreshing = true;
@@ -70,6 +89,11 @@ public class NetworkManager : MonoBehaviour
         }
         Debug.Log(hostData.Length + " servers found.");
         isRefreshing = false;
+
+        if(joinLatest)
+        {
+            SceneManager.Instance.JoinGame(hostData[hostData.Length - 1]);
+        }
     }
 
     public static void UnRegisterGame()
