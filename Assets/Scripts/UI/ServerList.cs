@@ -11,10 +11,15 @@ public class ServerList : MonoBehaviour {
     private List<ServerPanel> m_panels;
     private bool listNeedsRebuild;
 
+    private void Start()
+    {
+        RefreshList();
+    }
+
     public void RefreshList()
     {
         m_panels = new List<ServerPanel>();
-        StartCoroutine(NetworkManager.RefreshHostList());
+        StartCoroutine(NetworkManager.Instance.RefreshHostList());
         DestroyList();
         listNeedsRebuild = true;
     }
@@ -23,14 +28,14 @@ public class ServerList : MonoBehaviour {
     {
         if(listNeedsRebuild)
         {
-            if(!NetworkManager.isRefreshing)
+            if (!NetworkManager.Instance.isRefreshing)
             {
-                for (int i = 0; i < NetworkManager.hostData.Length; i++)
+                for (int i = 0; i < NetworkManager.Instance.hostData.Length; i++)
                 {
                     GameObject panel = GameObject.Instantiate(panelPrefab, Vector3.zero, panelPrefab.transform.rotation) as GameObject;
                     panel.transform.parent = serverListWrapper.transform;
                     panel.GetComponent<ServerPanel>().SetPosition(i);
-                    panel.GetComponent<ServerPanel>().SetServer(NetworkManager.hostData[i]);
+                    panel.GetComponent<ServerPanel>().SetServer(NetworkManager.Instance.hostData[i]);
                 }
                 listNeedsRebuild = false;
             }

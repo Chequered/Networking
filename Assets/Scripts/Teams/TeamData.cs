@@ -3,13 +3,17 @@ using System.Collections;
 
 public class TeamData {
 
+    public const int TEAM_STARTING_RESOURCES = 35;
+
     private Player[] m_players;
     private int m_amountOfMembers;
     private Team m_team;
+    private int m_resources;
 
     public TeamData(Team teamColor) {
         m_players = new Player[4];
         m_team = teamColor;
+        m_resources = TEAM_STARTING_RESOURCES;
     }
 
     public void AddNewPlayer(Player player, int id)
@@ -46,6 +50,38 @@ public class TeamData {
         {
             return m_team;
         }
+    }
+
+    public int PlayerCount
+    {
+        get
+        {
+            return m_amountOfMembers;
+        }
+    }
+
+    public int Resources
+    {
+        get
+        {
+            return m_resources;
+        }
+    }
+
+    public void TakeResources(int resourcesToTake)
+    {
+        m_resources -= resourcesToTake;
+        if(m_resources < 0)
+        {
+            m_resources = 0;
+        }
+        //TODO: Update UI;
+    }
+
+    public void AddResources(int resourcesToAdd)
+    {
+        m_resources += resourcesToAdd;
+        //TODO: Update UI;
     }
 
     public static int TeamIDByColor(Team color)

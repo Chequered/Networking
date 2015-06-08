@@ -4,21 +4,24 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour 
 {
 
-	[SerializeField] private GameObject _player;
 	private Rigidbody2D _playerRigid;
+    private NetworkView _networkView;
 
-	private float _movementspeed = 2;
+	private float _movementspeed = 10;
 	Vector2 vel;
 
 	void Start()
 	{
-
-		_playerRigid = _player.GetComponent<Rigidbody2D> ();
+        _playerRigid = GetComponent<Rigidbody2D>();
+        _networkView = GetComponent<NetworkView>();
 	}
 
 	void Update()
 	{
-		PlayerMoveInput ();
+        if(_networkView.isMine)
+        {
+            PlayerMoveInput();
+        }
 	}
 
 	void PlayerMoveInput()
@@ -47,4 +50,19 @@ public class PlayerMovement : MonoBehaviour
 		_playerRigid.MovePosition (_playerRigid.position + vel * Time.deltaTime );
 
 	}
+
+    private void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info)
+    {
+        Vector3 syncPosition = Vector3.zero;
+        if (stream.isWriting)
+        {
+            syncPosition = _playerRigid.position;
+            stream.Serialize(ref syncPosition);
+        }
+        else
+        {
+            stream.Serialize(ref syncPosition);
+            _playerRigid.position = syncPosition;
+        }
+    }
 }
