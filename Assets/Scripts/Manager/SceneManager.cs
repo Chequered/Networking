@@ -5,6 +5,8 @@ public class SceneManager : MonoBehaviour {
 
     public static SceneManager Instance;
 
+    public GameLobby gameLobby;
+
     private void Start()
     {
         Instance = this;

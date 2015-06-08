@@ -28,7 +28,7 @@ public class ServerPanel : MonoBehaviour {
 
     public void Join()
     {
-        GameObject.Find("New Server Panel").GetComponent<ServerNewPanel>().JoinAsClient(m_host);
+        GameObject.Find("Server Lobby Panel").GetComponent<ServerLobbyPanel>().JoinAsClient(m_host);
     }
 
 }

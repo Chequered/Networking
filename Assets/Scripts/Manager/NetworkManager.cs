@@ -3,31 +3,47 @@ using System.Collections;
 
 public class NetworkManager : MonoBehaviour
 {
-    public static HostData[] hostData;
-    public static bool isRefreshing;
-    public static string clientPlayerName = "Unnamed";
+    public static NetworkManager Instance;
+
+    [HideInInspector] public HostData[] hostData;
+    [HideInInspector] public bool isRefreshing;
+    [HideInInspector] public string clientPlayerName = "Unnamed Dwarf";
+    [HideInInspector] public int clientTeamID;
+    [HideInInspector] public int clientPlayerID;
 
     private const string REGISTERED_GAME_NAME = "BasedGame-Official";
     private const int MAX_CLIENTS = 15;
     private const string IP = "127.0.0.1";
     private const int PORT = 23466;
 
-    private static float refreshRequestLength = 1.25f;
+    private float m_refreshRequestLength = 1.25f;
+    private NetworkView m_networkView;
 
     private void Start()
     {
-        //MasterServer.ipAddress = IP;
-        //MasterServer.port = PORT;
+        Instance = this;
+        m_networkView = GetComponent<NetworkView>();
+
+        MasterServer.ipAddress = IP;
+        MasterServer.port = PORT;
         //Network.natFacilitatorIP = IP;
         //Network.natFacilitatorPort = 50005;
     }
 
-	public static void StartGame()
+	public void StartGame()
     {
         SceneManager.Instance.BuildScene();
+        m_networkView.RPC("OnStartGame", RPCMode.AllBuffered);
     }
 
-    public static void StartLobby(string lobbyName, string description, string password)
+    [RPC]
+    public void OnStartGame()
+    {
+        if (!Network.isServer)
+            SceneManager.Instance.BuildScene();
+    }
+
+    public void StartLobby(string lobbyName, string description, string password)
     {
         Network.incomingPassword = password;
         Network.InitializeServer(MAX_CLIENTS, 25002, false);
@@ -62,12 +78,12 @@ public class NetworkManager : MonoBehaviour
         }
     }
 
-    public void RefreshAndJoin()
+    public void Refresh()
     {
         StartCoroutine(RefreshHostList(true));
     }
 
-    public static IEnumerator RefreshHostList(bool joinLatest = false)
+    public IEnumerator RefreshHostList(bool joinLatest = false)
     {
         Debug.Log("Refreshing..");
         isRefreshing = true;
@@ -75,7 +91,7 @@ public class NetworkManager : MonoBehaviour
         MasterServer.RequestHostList(REGISTERED_GAME_NAME);
 
         float timeStarted = Time.time;
-        float timeEnd = Time.time + refreshRequestLength;
+        float timeEnd = Time.time + m_refreshRequestLength;
 
         while(Time.time < timeEnd)
         {
@@ -96,7 +112,7 @@ public class NetworkManager : MonoBehaviour
         }
     }
 
-    public static void UnRegisterGame()
+    public void UnRegisterGame()
     {
         if (Network.isServer)
         {
@@ -109,6 +125,6 @@ public class NetworkManager : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        NetworkManager.UnRegisterGame();
+        NetworkManager.Instance.UnRegisterGame();
     }
 }

@@ -8,15 +8,17 @@ public class MousePositionTracker : MonoBehaviour {
     private Vector3 m_mousePosition;
     private Ray m_ray;
     private GameObject m_gridSelector;
+    private GameObject m_playerGridPoint;
     
     private void Start()
     {
         m_gridSelector = GameObject.Instantiate(Resources.Load("Grid/Grid Selection Block") as GameObject);
+        m_playerGridPoint = GameObject.Find("GridPoint");
     }
 
     private void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, 9999, LayerMask.GetMask("GridBase"));
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.transform.position, m_playerGridPoint.transform.position, 9999, LayerMask.GetMask("GridBase"));
 
         if (hit.transform != null)
         {
@@ -29,7 +31,7 @@ public class MousePositionTracker : MonoBehaviour {
                 m_gridSelector.transform.position = new Vector2(-(x - 49.5f), -(y - 49.5f));
                 if(Input.GetMouseButtonUp(0))
                 {
-                    BuildingManager.Instance.BuildBuilding(x, y, new Player("Player Man", Team.Green), Building.TypeById(1));
+                    BuildingManager.Instance.BuildBuilding(x, y, Building.TypeById(1));
                 }
             }
             else

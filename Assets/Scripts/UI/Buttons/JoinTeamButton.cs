@@ -6,7 +6,7 @@ public class JoinTeamButton : MonoBehaviour {
 
     private int m_teamID;
     private Team m_team;
-    private ServerNewPanel m_panel;
+    private ServerLobbyPanel m_panel;
     private bool m_taken = false;
 
     private Text m_buttonContent;
@@ -15,7 +15,7 @@ public class JoinTeamButton : MonoBehaviour {
     {
         System.Int32.TryParse(transform.name, out m_teamID);
         m_team = TeamData.TeamColorByString(transform.parent.name);
-        m_panel = GameObject.Find("New Server Panel").GetComponent<ServerNewPanel>();
+        m_panel = GameObject.Find("Server Lobby Panel").GetComponent<ServerLobbyPanel>();
         m_buttonContent = transform.FindChild("Name").GetComponent<Text>();
     }
 
@@ -23,7 +23,7 @@ public class JoinTeamButton : MonoBehaviour {
     {
         if(!m_taken)
         {
-            m_panel.JoinTeam(this, m_teamID, m_team, NetworkManager.clientPlayerName);
+            m_panel.JoinTeam(this, m_teamID, m_team, NetworkManager.Instance.clientPlayerName);
             m_taken = true;
         }
     }

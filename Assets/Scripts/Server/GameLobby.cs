@@ -4,10 +4,12 @@ using System.Collections;
 public class GameLobby {
 
     private TeamData[] m_teams;
+    private int[] m_teamResources;
 
     public GameLobby()
     {
         m_teams = new TeamData[4];
+        m_teamResources = new int[4];
 
         m_teams[0] = new TeamData(Team.Blue);
         m_teams[1] = new TeamData(Team.Red);
@@ -58,6 +60,19 @@ public class GameLobby {
             }
         }
         return false;
+    }
+
+    public int TeamHavePlayers()
+    {
+        int result = 0;
+        foreach (TeamData team in m_teams)
+        {
+            if (team.PlayerCount > 0)
+            {
+                result++;
+            }
+        }
+        return result;
     }
 
     public TeamData GetTeam(Team teamColor)

@@ -10,20 +10,18 @@ public enum BuildingType
     Resource
 }
 
-public class Building{
+public class Building {
 
     private Team m_team;
     private BuildingType m_type;
     private int m_x;
     private int m_y;
-    private int m_hp;
     private int m_size;
 
-    public Building(int x, int y, int hp)
+    public Building(int x, int y)
     {
         m_x = x;
         m_y = y;
-        m_hp = hp;
     }
 
     public void Build(Team team, BuildingType type)
@@ -31,19 +29,6 @@ public class Building{
         m_type = type;
         m_size = SizeByType(type);
         m_team = team;
-    }
-
-    public void DealDamage(int dmg)
-    {
-        if (m_hp - dmg <= 0)
-        {
-            //BuildingManager.RemoveBuilding(this);
-        }
-        else
-        {
-            m_hp -= dmg;
-            //Update UI;
-        }
     }
 
     #region getters
@@ -69,15 +54,6 @@ public class Building{
         get
         {
             return m_y;
-        }
-    }
-
-    public int HP
-    {
-        get
-        {
-            return m_hp;
-
         }
     }
 

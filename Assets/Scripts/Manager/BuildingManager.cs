@@ -19,16 +19,16 @@ public class BuildingManager : MonoBehaviour {
 
     }
 
-    public void BuildBuilding(int x, int y, Player player, BuildingType type)
+    public void BuildBuilding(int x, int y, BuildingType type)
     {
         if(GridManager.Instance.CanBuild(x, y, Building.SizeByType(type)))
         {
-            Building building = new Building(x, y, 100);
-            building.Build(player.Team, type);
+            Building building = new Building(x, y);
+            building.Build(TeamData.TeamColorByID(NetworkManager.Instance.clientTeamID), type);
 
             m_buildings.Add(building);
-            GridManager.Instance.RegisterBuilding(building.X, building.Y, building.Size, TeamData.TeamIDByColor(building.Team));
-            GetComponent<NetworkView>().RPC("SyncNewBuilding", RPCMode.OthersBuffered, x, y, Building.IdByType(type), TeamData.TeamIDByColor(player.Team));
+            GridManager.Instance.RegisterBuilding(building.X, building.Y, building.Size, NetworkManager.Instance.clientTeamID);
+            GetComponent<NetworkView>().RPC("SyncNewBuilding", RPCMode.OthersBuffered, x, y, Building.IdByType(type), NetworkManager.Instance.clientTeamID);
 
             Network.Instantiate(Resources.Load("Buildings/Building Placeholder"), GridToWorld(x, y), Quaternion.identity, 0);
         }
@@ -37,7 +37,7 @@ public class BuildingManager : MonoBehaviour {
     [RPC]
     private void SyncNewBuilding(int x, int y, int buildingID, int teamID)
     {
-        Building building = new Building(x, y, 100);
+        Building building = new Building(x, y);
         building.Build(TeamData.TeamColorByID(teamID), Building.TypeById(buildingID));
 
         m_buildings.Add(building);
@@ -47,12 +47,6 @@ public class BuildingManager : MonoBehaviour {
 	public void RemoveBuilding(Building building)
     {
         m_buildings.Remove(building);
-        //do across network
-    }
-
-    public void AttackBuilding(Building building, Player player)
-    {
-        building.DealDamage(player.Damage);
         //do across network
     }
 

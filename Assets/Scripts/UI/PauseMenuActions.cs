@@ -38,6 +38,7 @@ public class PauseMenuActions : MonoBehaviour {
 
     public void ShowServerList()
     {
+        ResumeGame();
         if(serverList != null)
         {
             serverList.GetComponent<ServerList>().OpenServerList();
