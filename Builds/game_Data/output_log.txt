@@ -12,7 +12,7 @@ Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Ma
 Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.053 seconds
+- Completed reload, in  0.051 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -81,7 +81,7 @@ Added RPC 'UpdateTeamSlot' to buffer.
  
 (Filename:  Line: 2493)
 
-New connection established (172.17.59.116:58785)
+New connection established (172.17.59.116:53734)
  
 (Filename:  Line: 2493)
 
@@ -195,6 +195,20 @@ Added RPC 'UpdateTeamSlot' to buffer.
  
 (Filename:  Line: 2493)
 
+Allocating view ID AllocatedID: 1.
+
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
 Sent RPC call 'OnStartGame' to all connected clients
 
  
@@ -203,4 +217,96 @@ Sent RPC call 'OnStartGame' to all connected clients
 Added RPC 'OnStartGame' to buffer.
  
 (Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+A client has disconnected from this server. Player ID 1, IP 172.17.59.116:53734
+ 
+(Filename:  Line: 2493)
+
+Sent host update to master server with identifier 0
+ 
+(Filename:  Line: 2493)
+
+Received identifier 0 from master server
+ 
+(Filename:  Line: 2493)
+
+Registration succesful!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 

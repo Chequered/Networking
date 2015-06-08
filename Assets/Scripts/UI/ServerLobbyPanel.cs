@@ -233,9 +233,9 @@ public class ServerLobbyPanel : MonoBehaviour {
         }
         else if (way == "Close")
         {
-            m_canvasGroup.alpha = 1;
-            m_canvasGroup.interactable = true;
-            m_canvasGroup.blocksRaycasts = true;
+            m_canvasGroup.alpha = 0;
+            m_canvasGroup.interactable = false;
+            m_canvasGroup.blocksRaycasts = false;
         }
     }
 
@@ -243,7 +243,7 @@ public class ServerLobbyPanel : MonoBehaviour {
     {
         get
         {
-            if(m_gameLobby.TeamHavePlayers() >= 2)
+            if(m_gameLobby.TeamHavePlayers() >= 1)
             {
                 return true;
             }
