@@ -27,6 +27,7 @@ public class MousePositionTracker : MonoBehaviour {
                 int x = (int)Mathf.Floor((m_mousePosition.x + 50));
                 int y = (int)Mathf.Floor((m_mousePosition.y + 50));
                 m_gridSelector.transform.position = new Vector2(-(x - 49.5f), -(y - 49.5f));
+
                 if(Input.GetMouseButtonUp(0))
                 {
                     BuildingManager.Instance.BuildBuilding(x, y, new Player("Player Man", Team.Green), Building.TypeById(1));

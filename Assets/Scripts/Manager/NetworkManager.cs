@@ -9,15 +9,15 @@ public class NetworkManager : MonoBehaviour
 
     private const string REGISTERED_GAME_NAME = "BasedGame-Official";
     private const int MAX_CLIENTS = 15;
-    private const string IP = "127.0.0.1";
+	private const string IP = "172.17.59.116";
     private const int PORT = 23466;
 
     private static float refreshRequestLength = 1.25f;
 
     private void Start()
     {
-        //MasterServer.ipAddress = IP;
-        //MasterServer.port = PORT;
+        MasterServer.ipAddress = IP;
+        MasterServer.port = PORT;
         //Network.natFacilitatorIP = IP;
         //Network.natFacilitatorPort = 50005;
     }

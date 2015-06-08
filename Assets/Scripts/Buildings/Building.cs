@@ -10,7 +10,8 @@ public enum BuildingType
     Resource
 }
 
-public class Building{
+public class Building : MonoBehaviour
+{
 
     private Team m_team;
     private BuildingType m_type;
