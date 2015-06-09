@@ -13,7 +13,7 @@ public class NetworkManager : MonoBehaviour
 
     private const string REGISTERED_GAME_NAME = "BasedGame-Official";
     private const int MAX_CLIENTS = 15;
-	private const string IP = "127.0.0.1";
+    private const string IP = "172.17.59.116";
     private const int PORT = 23466;
 
     private float m_refreshRequestLength = 1.25f;
@@ -48,6 +48,10 @@ public class NetworkManager : MonoBehaviour
         Network.incomingPassword = password;
         Network.InitializeServer(MAX_CLIENTS, 25002, false);
         MasterServer.RegisterHost(REGISTERED_GAME_NAME, lobbyName, description);
+        if (Network.isServer)
+        {
+            gameObject.GetComponent<ServerMaster>().StartGame();
+        }
     }
 
     private void OnServerInitialized()
@@ -58,11 +62,6 @@ public class NetworkManager : MonoBehaviour
     private void OnPlayerConnected(NetworkPlayer player)
     {
         Debug.Log("Player connected from: " + player.ipAddress);
-    }
-
-    private void OnConnectedToServer()
-    {
-        Debug.Log("Connected to the server!");
     }
 
     private void OnFailedToConnect(NetworkConnectionError error)

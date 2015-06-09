@@ -45,6 +45,7 @@ GameObject:
   - 50: {fileID: 5085406}
   - 61: {fileID: 6117290}
   - 114: {fileID: 11402580}
+  - 114: {fileID: 11405822}
   - 148: {fileID: 14863010}
   m_Layer: 0
   m_Name: PlayerPlaceholder
@@ -106,8 +107,8 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 0
-  m_FixedAngle: 0
-  m_IsKinematic: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -135,6 +136,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc89723c184828746835de356adc7f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11405822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bbb22d911e4ac43a5e5156b0de74ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userNameText: {fileID: 11490286}
 --- !u!114 &11426464
 MonoBehaviour:
   m_ObjectHideFlags: 1

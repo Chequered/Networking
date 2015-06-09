@@ -46,9 +46,10 @@ GameObject:
   - 222: {fileID: 22212426}
   - 114: {fileID: 11406372}
   - 114: {fileID: 11492454}
+  - 148: {fileID: 14853812}
   m_Layer: 5
   m_Name: Server Panel
-  m_TagString: Untagged
+  m_TagString: ServerPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -317,6 +318,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!148 &14853812
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133868}
+  m_Enabled: 1
+  m_StateSynchronization: 0
+  m_Observed: {fileID: 0}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
 --- !u!222 &22212426
 CanvasRenderer:
   m_ObjectHideFlags: 1

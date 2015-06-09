@@ -44,7 +44,10 @@ public class ServerLobbyPanel : MonoBehaviour {
     public void JoinAsClient(HostData hostData)
     {
         Network.Connect(hostData);
+        Destroy(GameObject.FindObjectOfType<NetworkView>());
         TogglePanel("Open");
+
+        //enable UI
         m_serverSettingsCanvasGroup.interactable = false;
         m_teamsCanvasGroup.alpha = 1;
         m_teamsCanvasGroup.blocksRaycasts = true;

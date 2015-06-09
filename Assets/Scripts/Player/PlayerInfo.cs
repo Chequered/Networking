@@ -4,7 +4,14 @@ using System.Collections;
 
 public class PlayerInfo : MonoBehaviour {
 
-   // private 
+    public Text userNameText;
 
-	//public void SetPlayerName(string playerName)
+    private string m_username; 
+
+    [RPC]
+	public void SetPlayerName(string playerName)
+    {
+        m_username = playerName;
+        userNameText.text = m_username;
+    }
 }
