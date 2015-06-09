@@ -8,16 +8,12 @@ public class Turret : MonoBehaviour, BuildingInterface
 	private float _shootDelay = 2f;
 	private float _distance;
 
-	void Start () 
-	{
+	public Transform prefab;
 	
-	}
-
 	void Update () 
 	{
 
 		TakeDmg ();
-		OnDeath ();
 	
 	}
 
@@ -32,24 +28,22 @@ public class Turret : MonoBehaviour, BuildingInterface
 		}
 	}
 
-	void OnTriggerExit2D(Collider2D col)
-	{
-
-	}
-
 	public void TakeDmg()
 	{
-
+		//Update UI here
+		//Play Turret Animations
 	}
 
 	public void OnDeath()
 	{
-
+		Destroy (this.gameObject);
 	}
 
 	void Shoot()
 	{
-		Debug.Log ("Kappa");
-		//GameObject.Instantiate(TurretArrow,
+		//Debug.Log ("TurretShoot");
+		Debug.Log (Resources.Load ("Projectiles/TurretProjectile", typeof(GameObject)));
+		GameObject.Instantiate (Resources.Load("Projectiles/TurretProjectile", typeof(GameObject)) as GameObject/*, this.gameObject.transform.position, this.gameObject.transform.rotation*/);
+		Debug.Log ("TurretShoot");
 	}
 }
