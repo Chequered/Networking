@@ -41,6 +41,10 @@ public class NetworkManager : MonoBehaviour
     {
         if (!Network.isServer)
             SceneManager.Instance.BuildScene();
+        if (Network.isServer)
+        {
+            gameObject.GetComponent<ServerMaster>().StartGame();
+        }
     }
 
     public void StartLobby(string lobbyName, string description, string password)
@@ -48,10 +52,6 @@ public class NetworkManager : MonoBehaviour
         Network.incomingPassword = password;
         Network.InitializeServer(MAX_CLIENTS, 25002, false);
         MasterServer.RegisterHost(REGISTERED_GAME_NAME, lobbyName, description);
-        if (Network.isServer)
-        {
-            gameObject.GetComponent<ServerMaster>().StartGame();
-        }
     }
 
     private void OnServerInitialized()

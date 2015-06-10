@@ -4,15 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Grid Base
-<<<<<<< HEAD
   - Managers
-  - ServerPanel
-  - ServerPanelWaiting
   - ServerList
-=======
-  - Building
->>>>>>> 46b3da2a7ac7ac916322e0a80c254821cf1cf371
   layers:
   - Default
   - TransparentFX
@@ -22,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - GridBase
+  - 
   - 
   - 
   - 

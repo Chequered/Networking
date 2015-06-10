@@ -34,8 +34,8 @@ public class ServerPanel : MonoBehaviour {
 
     public void StartConnection()
     {
+        m_serverResponseTimeout = Time.time + 2f;
         StartCoroutine(ConnectToGame());
-        m_serverResponseTimeout += Time.time;
     }
 
     private int m_serverResponse = 0;
@@ -49,7 +49,7 @@ public class ServerPanel : MonoBehaviour {
             if (m_serverResponse == 1)
             {
                 //succes - lobby   
-                GameObject.Find("Server Lobby Panel").GetComponent<ServerLobbyPanel>().JoinAsClient(m_host);
+                GameObject.Find("Server Lobby Panel").GetComponent<ServerLobbyPanel>().JoinAsClient();
                 m_serverResponseTimeout = 0f;
             }
             else if (m_serverResponseTimeout == 2)

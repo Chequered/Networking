@@ -9,6 +9,7 @@ public class ServerMaster : MonoBehaviour {
     [HideInInspector] public bool isInSession = false;
 
     private GameLobby m_lobby;
+    private bool m_isClient;
 
     public void StartGame()
     {
@@ -25,6 +26,11 @@ public class ServerMaster : MonoBehaviour {
         {
             m_lobby = value;
         }
+    }
+
+    public void SetAsClient()
+    {
+        m_isClient = true;
     }
 
     [RPC]

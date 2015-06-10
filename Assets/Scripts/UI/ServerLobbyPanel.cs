@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ServerLobbyPanel : MonoBehaviour {
 
@@ -18,6 +19,7 @@ public class ServerLobbyPanel : MonoBehaviour {
     private JoinTeamButton m_newButton;
 
     private JoinTeamButton[] m_playerSlots;
+    private List<NetworkPlayer> m_networkPlayers;
 
     private void Start()
     {
@@ -32,6 +34,14 @@ public class ServerLobbyPanel : MonoBehaviour {
 
         m_playerSlots = new JoinTeamButton[16];
 
+        m_networkPlayers = new List<NetworkPlayer>();
+
+        if(Network.isServer)
+        {
+            Debug.Log(m_networkPlayers.Count);
+            m_networkPlayers.Add(Network.player);
+        }
+
         for (int i = 0; i < 4; i++)
         {
             for (int j = 0; j < 4; j++)
@@ -41,10 +51,21 @@ public class ServerLobbyPanel : MonoBehaviour {
         }
     }
 
-    public void JoinAsClient(HostData hostData)
+    private void OnPlayerConnected(NetworkPlayer player)
     {
-        Network.Connect(hostData);
-        Destroy(GameObject.FindObjectOfType<NetworkView>());
+        m_networkPlayers.Add(player);
+    }
+
+    private void OnPlayerDisconnected(NetworkPlayer player)
+    {
+        m_networkPlayers.Remove(player);
+        int[] deletedPlayerData = m_gameLobby.RemovePlayer(player);
+        ResetButton(deletedPlayerData[0], deletedPlayerData[1]);
+    }
+
+    public void JoinAsClient()
+    {
+        GameObject.FindObjectOfType<ServerMaster>().SetAsClient();
         TogglePanel("Open");
 
         //enable UI
@@ -199,7 +220,15 @@ public class ServerLobbyPanel : MonoBehaviour {
         Team team = TeamData.TeamColorByID(teamID);
         if(Network.isServer)
         {
-            m_gameLobby.JoinTeam(team, new Player(playerName, team), teamID);
+            NetworkPlayer result = new NetworkPlayer();
+            foreach (NetworkPlayer player  in m_networkPlayers)
+            {
+                if(player.ipAddress == info.sender.ipAddress)
+                {
+                    result = player;
+                }
+            }
+            m_gameLobby.JoinTeam(team, new Player(playerName, team, result), teamID);
             UpdateTeamSlot(colorID, teamID, playerName);
         }
         ResetOldButton();
@@ -212,10 +241,16 @@ public class ServerLobbyPanel : MonoBehaviour {
     {
         if (m_oldButton != null)
         {
-            Debug.Log("Clearing button");
             m_playerSlots[System.Array.IndexOf(m_playerSlots, m_oldButton)].GetComponent<NetworkView>().RPC("ResetButton", RPCMode.AllBuffered);
             m_playerSlots[System.Array.IndexOf(m_playerSlots, m_oldButton)].GetComponent<JoinTeamButton>().ResetButton();
         }
+    }
+
+    [RPC]
+    public void ResetButton(int teamID, int playerID)
+    {
+        transform.FindChild("Teams").FindChild("" + TeamData.TeamColorByID(teamID)).FindChild("" + playerID).GetComponent<NetworkView>().RPC("ResetButton", RPCMode.AllBuffered);
+        transform.FindChild("Teams").FindChild("" + TeamData.TeamColorByID(teamID)).FindChild("" + playerID).GetComponent<JoinTeamButton>().ResetButton();
     }
 
     [RPC]

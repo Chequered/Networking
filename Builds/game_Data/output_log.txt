@@ -12,7 +12,7 @@ Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Ma
 Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.081 seconds
+- Completed reload, in  0.055 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -52,10 +52,53 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 105)
 
-Running as server. Player ID is 0.
-UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkManager:StartLobby(String, String, String) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:49)
-ServerLobbyPanel:StartLobby() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerLobbyPanel.cs:59)
+Refreshing..
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:87)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:62)
+ServerList:RefreshList() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerList.cs:23)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:110)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:574)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:716)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:358)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:249)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:160)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:272)
+ 
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 87)
+
+Incoming host list query response from master server.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+1 servers found.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:105)
+ 
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 105)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineTransform.gen.cs:119)
+ServerList:Update() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerList.cs:45)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineTransform.gen.cs Line: 119)
+
+Running as client. No player ID set yet.
+UnityEngine.Network:Internal_ConnectToIPs(String[], Int32, Int32, String)
+UnityEngine.Network:Connect(String[], Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:559)
+UnityEngine.Network:Connect(HostData, String) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:587)
+UnityEngine.Network:Connect(HostData) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:578)
+ServerPanel:Join() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerPanel.cs:32)
 UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:110)
 UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:574)
 UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:716)
@@ -70,419 +113,30 @@ UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity
 UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:272)
 
 [C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 49)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 559)
 
-Server has been initialized
+Connected to 172.17.59.116:25002
+
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Set player ID to 1
+
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Received responce: 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnServerInitialized() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:59)
-UnityEngine.Network:InitializeServer(Int32, Int32, Boolean)
-NetworkManager:StartLobby(String, String, String) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:49)
-ServerLobbyPanel:StartLobby() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerLobbyPanel.cs:59)
-UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:110)
-UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:574)
-UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:716)
-UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
-UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
-UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:358)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:249)
-UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:160)
-UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:272)
+ServerLobbyPanel:ReceiveResponce(Int32) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerLobbyPanel.cs:213)
  
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 59)
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/UI/ServerLobbyPanel.cs Line: 213)
 
-Attempting to connect to master server at 172.17.59.116:23466
-UnityEngine.MasterServer:RegisterHost(String, String, String)
-NetworkManager:StartLobby(String, String, String) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:50)
-ServerLobbyPanel:StartLobby() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerLobbyPanel.cs:59)
-UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:110)
-UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:574)
-UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:716)
-UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
-UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
-UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:358)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:249)
-UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:160)
-UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:272)
-
-[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 50)
-
-Connected to master server at 172.17.59.116:23466
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Received identifier 0 from master server
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Registration succesful!
+Received responce: 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:76)
+ServerLobbyPanel:ReceiveResponce(Int32) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerLobbyPanel.cs:213)
  
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 76)
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/UI/ServerLobbyPanel.cs Line: 213)
 
-New connection established (172.17.59.116:60439)
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for AllocatedID: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 3 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 18 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 2 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 16 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 17 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 1 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 9 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 10 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 11 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 12 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 13 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 14 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 19 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 15 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 4 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 5 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 6 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 7 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 8 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Sent initalization to player 1
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Player connected from: 172.17.59.116
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnPlayerConnected(NetworkPlayer) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:64)
- 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 64)
-
-A client has disconnected from this server. Player ID 1, IP 172.17.59.116:60439
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-New connection established (172.17.59.116:58659)
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for AllocatedID: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 3 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 18 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 2 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 16 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 17 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 1 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 9 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 10 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 11 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 12 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 13 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 14 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 19 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 15 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 4 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 5 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 6 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 7 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 8 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Sent initalization to player 2
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Player connected from: 172.17.59.116
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnPlayerConnected(NetworkPlayer) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:64)
- 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 64)
-
-Sent host update to master server with identifier 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Received identifier 0 from master server
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Registration succesful!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:76)
- 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 76)
-
-A client has disconnected from this server. Player ID 2, IP 172.17.59.116:58659
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Sent host update to master server with identifier 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Received identifier 0 from master server
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Registration succesful!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:76)
- 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 76)
-
-New connection established (172.17.59.116:50107)
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for AllocatedID: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 3 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 18 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 2 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 16 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 17 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 1 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 9 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 10 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 11 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 12 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 13 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 14 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 19 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 15 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 4 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 5 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 6 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 7 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Scope index 0 is now in scope for SceneID: 8 Level Prefix: 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Sent initalization to player 3
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Player connected from: 172.17.59.116
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnPlayerConnected(NetworkPlayer) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:64)
- 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 64)
-
-Sent host update to master server with identifier 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Received identifier 0 from master server
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Registration succesful!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:76)
- 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 76)
-
-A client has disconnected from this server. Player ID 3, IP 172.17.59.116:50107
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Sent host update to master server with identifier 0
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Received identifier 0 from master server
- 
-(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
-
-Registration succesful!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-NetworkManager:OnMasterServerEvent(MasterServerEvent) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:76)
- 
-(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 76)
-
+Waiting for finish
