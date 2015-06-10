@@ -1,28 +1,42 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PauseMenuActions : MonoBehaviour {
 
     [SerializeField] public GameObject serverList;
 
-    CanvasGroup m_canvasGroup;
+    private CanvasGroup m_canvasGroup;
+    private bool m_canResume;
 
     private void Start()
     {
         m_canvasGroup = GetComponent<CanvasGroup>();
+        if(!Network.isClient || !Network.isServer)
+        {
+            transform.FindChild("Buttons").FindChild("Button Start").GetComponent<Button>().interactable = false;
+        }
     }
 
     private void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyUp(KeyCode.Escape))
         {
             OpenPauseMenu();
+        }
+        if (!m_canResume)
+        {
+            if (!Network.isClient || !Network.isServer)
+            {
+                transform.FindChild("Buttons").FindChild("Button Start").GetComponent<Button>().interactable = false;
+                m_canResume = true;
+            }
         }
     }
 
     // PAUSE MENY ACTION EVENTS //
 
-    private void OpenPauseMenu()
+    public void OpenPauseMenu()
     {
         m_canvasGroup.alpha = 1;
         m_canvasGroup.interactable = true;

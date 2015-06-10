@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 155134eae92e3c140b2fe1e23eb227d1
+timeCreated: 1433969635
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Char_Red_Bomb_Spawn_0
+    21300002: Char_Red_Bomb_Spawn_1
+    21300004: Char_Red_Bomb_Spawn_2
+    21300006: Char_Red_Bomb_Spawn_3
+    21300008: Char_Red_Bomb_Spawn_4
+    21300010: Char_Red_Bomb_Spawn_5
+    21300012: Char_Red_Bomb_Spawn_6
+    21300014: Char_Red_Bomb_Spawn_7
+    21300016: Char_Red_Bomb_Spawn_8
+    21300018: Char_Red_Bomb_Spawn_9
+    21300020: Char_Red_Bomb_Spawn_10
+    21300022: Char_Red_Bomb_Spawn_11
+    21300024: Char_Red_Bomb_Spawn_12
+    21300026: Char_Red_Bomb_Spawn_13
+    21300028: Char_Red_Bomb_Spawn_14
+    21300030: Char_Red_Bomb_Spawn_15
+    21300032: Char_Red_Bomb_Spawn_16
+    21300034: Char_Red_Bomb_Spawn_17
+    21300036: Char_Red_Bomb_Spawn_18
+    21300038: Char_Red_Bomb_Spawn_19
+    21300040: Char_Red_Bomb_Spawn_20
+    21300042: Char_Red_Bomb_Spawn_21
+    21300044: Char_Red_Bomb_Spawn_22
+    21300046: Char_Red_Bomb_Spawn_23
+    21300048: Char_Red_Bomb_Spawn_24
+    21300050: Char_Red_Bomb_Spawn_25
+    21300052: Char_Red_Bomb_Spawn_26
+    21300054: Char_Red_Bomb_Spawn_27
+    21300056: Char_Red_Bomb_Spawn_28
+    21300058: Char_Red_Bomb_Spawn_29
+    21300060: Char_Red_Bomb_Spawn_30
+    21300062: Char_Red_Bomb_Spawn_31
+    21300064: Char_Red_Bomb_Spawn_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Char_Red_Bomb_Spawn_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 530
+        width: 92
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 530
+        width: 92
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 530
+        width: 92
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 530
+        width: 92
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 530
+        width: 92
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_5
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 530
+        width: 85
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 425
+        width: 78
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 425
+        width: 71
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 425
+        width: 64
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 425
+        width: 57
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_10
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 425
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 425
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 320
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 320
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 320
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 320
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_16
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 320
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_17
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 320
+        width: 52
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 215
+        width: 53
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 215
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 215
+        width: 64
+        height: 76
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 215
+        width: 80
+        height: 94
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_22
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 215
+        width: 80
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_23
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 215
+        width: 80
+        height: 82
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 110
+        width: 79
+        height: 77
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_25
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 110
+        width: 79
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_26
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 110
+        width: 79
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_27
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 110
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_28
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 110
+        width: 79
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_29
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 110
+        width: 79
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 5
+        width: 80
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 5
+        width: 81
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_Spawn_32
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 5
+        width: 81
+        height: 74
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

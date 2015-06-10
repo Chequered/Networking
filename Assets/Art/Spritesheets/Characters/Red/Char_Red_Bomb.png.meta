@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 25a7837caa5531945a6866ee9afb4508
+timeCreated: 1433969602
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Char_Red_Bomb_0
+    21300002: Char_Red_Bomb_1
+    21300004: Char_Red_Bomb_2
+    21300006: Char_Red_Bomb_3
+    21300008: Char_Red_Bomb_4
+    21300010: Char_Red_Bomb_5
+    21300012: Char_Red_Bomb_6
+    21300014: Char_Red_Bomb_7
+    21300016: Char_Red_Bomb_8
+    21300018: Char_Red_Bomb_9
+    21300020: Char_Red_Bomb_10
+    21300022: Char_Red_Bomb_11
+    21300024: Char_Red_Bomb_12
+    21300026: Char_Red_Bomb_13
+    21300028: Char_Red_Bomb_14
+    21300030: Char_Red_Bomb_15
+    21300032: Char_Red_Bomb_16
+    21300034: Char_Red_Bomb_17
+    21300036: Char_Red_Bomb_18
+    21300038: Char_Red_Bomb_19
+    21300040: Char_Red_Bomb_20
+    21300042: Char_Red_Bomb_21
+    21300044: Char_Red_Bomb_22
+    21300046: Char_Red_Bomb_23
+    21300048: Char_Red_Bomb_24
+    21300050: Char_Red_Bomb_25
+    21300052: Char_Red_Bomb_26
+    21300054: Char_Red_Bomb_27
+    21300056: Char_Red_Bomb_28
+    21300058: Char_Red_Bomb_29
+    21300060: Char_Red_Bomb_30
+    21300062: Char_Red_Bomb_31
+    21300064: Char_Red_Bomb_32
+    21300066: Char_Red_Bomb_33
+    21300068: Char_Red_Bomb_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Char_Red_Bomb_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 460
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 460
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 460
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 460
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 460
+        width: 76
+        height: 70
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 460
+        width: 76
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_6
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 460
+        width: 75
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_7
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 460
+        width: 76
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 349
+        width: 75
+        height: 58
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 349
+        width: 75
+        height: 57
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 349
+        width: 75
+        height: 56
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 349
+        width: 75
+        height: 56
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_12
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 349
+        width: 75
+        height: 55
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 349
+        width: 75
+        height: 54
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_14
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 349
+        width: 77
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 349
+        width: 79
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 238
+        width: 80
+        height: 79
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 238
+        width: 81
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 238
+        width: 79
+        height: 97
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 238
+        width: 79
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_20
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 238
+        width: 79
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_21
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 238
+        width: 78
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_22
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 238
+        width: 78
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_23
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 238
+        width: 77
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127
+        width: 77
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 127
+        width: 78
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_27
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 127
+        width: 76
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_28
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 127
+        width: 74
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_29
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 127
+        width: 75
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_30
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 127
+        width: 76
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_31
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 127
+        width: 77
+        height: 102
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 16
+        width: 79
+        height: 104
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 80
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Bomb_34
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 16
+        width: 81
+        height: 107
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

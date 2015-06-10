@@ -38,7 +38,6 @@ public class ServerLobbyPanel : MonoBehaviour {
 
         if(Network.isServer)
         {
-            Debug.Log(m_networkPlayers.Count);
             m_networkPlayers.Add(Network.player);
         }
 
@@ -275,6 +274,13 @@ public class ServerLobbyPanel : MonoBehaviour {
             m_canvasGroup.interactable = false;
             m_canvasGroup.blocksRaycasts = false;
         }
+    }
+
+    public void ReturnToServerList()
+    {
+        NetworkManager.Instance.UnRegisterGame();
+        TogglePanel("Close");
+        CanvasManager.Instance.serverList.GetComponent<ServerList>().OpenServerList();
     }
 
     public bool HasEnoughPlayers

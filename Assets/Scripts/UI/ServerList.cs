@@ -19,9 +19,8 @@ public class ServerList : MonoBehaviour {
 
     public void RefreshList()
     {
-        m_panels = new List<GameObject>();
-        StartCoroutine(NetworkManager.Instance.RefreshHostList());
         DestroyList();
+        StartCoroutine(NetworkManager.Instance.RefreshHostList());
         listNeedsRebuild = true;
     }
 
@@ -54,10 +53,14 @@ public class ServerList : MonoBehaviour {
 
     private void DestroyList()
     {
-        foreach (GameObject panel in m_panels)
+        if(m_panels != null)
         {
-            Destroy(panel.gameObject);
+            foreach (GameObject panel in m_panels)
+            {
+                Destroy(panel.gameObject);
+            }
         }
+        m_panels = new List<GameObject>();
     }
 
     public void SetPanelToWaiting(ServerPanel panel)
@@ -73,6 +76,7 @@ public class ServerList : MonoBehaviour {
 
     public void BackToMain()
     {
+        CanvasManager.Instance.pauseMenu.GetComponent<PauseMenuActions>().OpenPauseMenu();
         m_canvasGroup.alpha = 0;
         m_canvasGroup.interactable = false;
         m_canvasGroup.blocksRaycasts = false;

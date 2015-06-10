@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 949c1048513d9ff46beea49800fde687
+timeCreated: 1433969616
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RED_boven_attack_W95.00_H120.00_0
+    21300002: RED_boven_attack_W95.00_H120.00_1
+    21300004: RED_boven_attack_W95.00_H120.00_2
+    21300006: RED_boven_attack_W95.00_H120.00_3
+    21300008: RED_boven_attack_W95.00_H120.00_4
+    21300010: RED_boven_attack_W95.00_H120.00_5
+    21300012: RED_boven_attack_W95.00_H120.00_6
+    21300014: RED_boven_attack_W95.00_H120.00_7
+    21300016: RED_boven_attack_W95.00_H120.00_8
+    21300018: RED_boven_attack_W95.00_H120.00_9
+    21300020: RED_boven_attack_W95.00_H120.00_10
+    21300022: RED_boven_attack_W95.00_H120.00_11
+    21300024: RED_boven_attack_W95.00_H120.00_12
+    21300026: RED_boven_attack_W95.00_H120.00_13
+    21300028: RED_boven_attack_W95.00_H120.00_14
+    21300030: RED_boven_attack_W95.00_H120.00_15
+    21300032: RED_boven_attack_W95.00_H120.00_16
+    21300034: RED_boven_attack_W95.00_H120.00_17
+    21300036: RED_boven_attack_W95.00_H120.00_18
+    21300038: RED_boven_attack_W95.00_H120.00_19
+    21300040: RED_boven_attack_W95.00_H120.00_20
+    21300042: RED_boven_attack_W95.00_H120.00_21
+    21300044: RED_boven_attack_W95.00_H120.00_22
+    21300046: RED_boven_attack_W95.00_H120.00_23
+    21300048: RED_boven_attack_W95.00_H120.00_24
+    21300050: RED_boven_attack_W95.00_H120.00_25
+    21300052: RED_boven_attack_W95.00_H120.00_26
+    21300054: RED_boven_attack_W95.00_H120.00_27
+    21300056: RED_boven_attack_W95.00_H120.00_28
+    21300058: RED_boven_attack_W95.00_H120.00_29
+    21300060: RED_boven_attack_W95.00_H120.00_30
+    21300062: RED_boven_attack_W95.00_H120.00_31
+    21300064: RED_boven_attack_W95.00_H120.00_32
+    21300066: RED_boven_attack_W95.00_H120.00_33
+    21300068: RED_boven_attack_W95.00_H120.00_34
+    21300070: RED_boven_attack_W95.00_H120.00_35
+    21300072: RED_boven_attack_W95.00_H120.00_36
+    21300074: RED_boven_attack_W95.00_H120.00_37
+    21300076: RED_boven_attack_W95.00_H120.00_38
+    21300078: RED_boven_attack_W95.00_H120.00_39
+    21300080: RED_boven_attack_W95.00_H120.00_40
+    21300082: Char_Red_Atk_Up_0
+    21300084: Char_Red_Atk_Up_1
+    21300086: Char_Red_Atk_Up_2
+    21300088: Char_Red_Atk_Up_3
+    21300090: Char_Red_Atk_Up_4
+    21300092: Char_Red_Atk_Up_5
+    21300094: Char_Red_Atk_Up_6
+    21300096: Char_Red_Atk_Up_7
+    21300098: Char_Red_Atk_Up_8
+    21300100: Char_Red_Atk_Up_9
+    21300102: Char_Red_Atk_Up_10
+    21300104: Char_Red_Atk_Up_11
+    21300106: Char_Red_Atk_Up_12
+    21300108: Char_Red_Atk_Up_13
+    21300110: Char_Red_Atk_Up_14
+    21300112: Char_Red_Atk_Up_15
+    21300114: Char_Red_Atk_Up_16
+    21300116: Char_Red_Atk_Up_17
+    21300118: Char_Red_Atk_Up_18
+    21300120: Char_Red_Atk_Up_19
+    21300122: Char_Red_Atk_Up_20
+    21300124: Char_Red_Atk_Up_21
+    21300126: Char_Red_Atk_Up_22
+    21300128: Char_Red_Atk_Up_23
+    21300130: Char_Red_Atk_Up_24
+    21300132: Char_Red_Atk_Up_25
+    21300134: Char_Red_Atk_Up_26
+    21300136: Char_Red_Atk_Up_27
+    21300138: Char_Red_Atk_Up_28
+    21300140: Char_Red_Atk_Up_29
+    21300142: Char_Red_Atk_Up_30
+    21300144: Char_Red_Atk_Up_31
+    21300146: Char_Red_Atk_Up_32
+    21300148: Char_Red_Atk_Up_33
+    21300150: Char_Red_Atk_Up_34
+    21300152: Char_Red_Atk_Up_35
+    21300154: Char_Red_Atk_Up_36
+    21300156: Char_Red_Atk_Up_37
+    21300158: Char_Red_Atk_Up_38
+    21300160: Char_Red_Atk_Up_39
+    21300162: Char_Red_Atk_Up_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Char_Red_Atk_Up_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 385
+        width: 86
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 385
+        width: 86
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 385
+        width: 86
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 385
+        width: 82
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 385
+        width: 77
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 385
+        width: 72
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 385
+        width: 68
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_7
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 385
+        width: 57
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_8
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 385
+        width: 57
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 385
+        width: 57
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_10
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 385
+        width: 56
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 264
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 264
+        width: 56
+        height: 70
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 264
+        width: 56
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 264
+        width: 56
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_15
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 264
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 262
+        width: 56
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_17
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 257
+        width: 56
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_18
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 253
+        width: 56
+        height: 65
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_19
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 252
+        width: 56
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_20
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 252
+        width: 56
+        height: 65
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_21
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 252
+        width: 56
+        height: 65
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 131
+        width: 56
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 130
+        width: 56
+        height: 65
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_24
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 143
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 143
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_26
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 143
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_27
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 143
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_28
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 143
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_29
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 143
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_30
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 143
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_31
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 143
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_32
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 143
+        width: 56
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 22
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_34
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 22
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_35
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 22
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_36
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 22
+        width: 60
+        height: 70
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_37
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 22
+        width: 65
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_38
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 22
+        width: 86
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_39
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 22
+        width: 86
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Up_40
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 22
+        width: 86
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

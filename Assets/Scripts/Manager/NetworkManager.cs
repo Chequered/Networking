@@ -11,6 +11,7 @@ public class NetworkManager : MonoBehaviour
     [HideInInspector] public int clientTeamID;
     [HideInInspector] public int clientPlayerID;
 
+	[SerializeField] private bool useOfficialMasterserver;
     private const string REGISTERED_GAME_NAME = "BasedGame-Official";
     private const int MAX_CLIENTS = 15;
     private const string IP = "172.17.59.116";
@@ -24,10 +25,11 @@ public class NetworkManager : MonoBehaviour
         Instance = this;
         m_networkView = GetComponent<NetworkView>();
 
-        MasterServer.ipAddress = IP;
-        MasterServer.port = PORT;
-        //Network.natFacilitatorIP = IP;
-        //Network.natFacilitatorPort = 50005;
+		if(!useOfficialMasterserver)
+		{
+			MasterServer.ipAddress = IP;
+			MasterServer.port = PORT;
+		}
     }
 
 	public void StartGame()
@@ -115,15 +117,13 @@ public class NetworkManager : MonoBehaviour
     {
         if (Network.isServer)
         {
-            Network.Disconnect(300);
             MasterServer.UnregisterHost();
+            MasterServer.ClearHostList();
         }
-        if (Network.isClient)
-            Network.Disconnect(300);
     }
 
     private void OnApplicationQuit()
     {
-        NetworkManager.Instance.UnRegisterGame();
+        UnRegisterGame();
     }
 }
