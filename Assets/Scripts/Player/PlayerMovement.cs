@@ -6,9 +6,16 @@ public class PlayerMovement : MonoBehaviour
 	private Rigidbody2D _playerRigid;
     private NetworkView _networkView;
 
+<<<<<<< HEAD
 	private float _movementspeed = 10;
     private Vector2 vel;
     private BuildMode _buildMode;
+=======
+	public bool networkBool = true; 
+
+	private float _movementspeed = 5;
+	Vector2 vel;
+>>>>>>> ed1e278210529bc52ead83b940263624d2df540d
 
 	void Start()
 	{
@@ -18,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
 	void Update()
 	{
-        if(_networkView.isMine)
+        if(_networkView.isMine || networkBool == false)
         {
             PlayerMoveInput();
         }

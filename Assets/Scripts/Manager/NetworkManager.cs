@@ -11,10 +11,9 @@ public class NetworkManager : MonoBehaviour
     [HideInInspector] public int clientTeamID;
     [HideInInspector] public int clientPlayerID;
 
-	[SerializeField] private bool useOfficialMasterserver;
     private const string REGISTERED_GAME_NAME = "BasedGame-Official";
     private const int MAX_CLIENTS = 15;
-    private const string IP = "172.17.59.116";
+	private const string IP = "172.17.59.116";
     private const int PORT = 23466;
 
     private float m_refreshRequestLength = 1.25f;
@@ -25,11 +24,10 @@ public class NetworkManager : MonoBehaviour
         Instance = this;
         m_networkView = GetComponent<NetworkView>();
 
-		if(!useOfficialMasterserver)
-		{
-			MasterServer.ipAddress = IP;
-			MasterServer.port = PORT;
-		}
+        MasterServer.ipAddress = IP;
+        MasterServer.port = PORT;
+        //Network.natFacilitatorIP = IP;
+        //Network.natFacilitatorPort = 50005;
     }
 
 	public void StartGame()
@@ -43,10 +41,6 @@ public class NetworkManager : MonoBehaviour
     {
         if (!Network.isServer)
             SceneManager.Instance.BuildScene();
-        if (Network.isServer)
-        {
-            gameObject.GetComponent<ServerMaster>().StartGame();
-        }
     }
 
     public void StartLobby(string lobbyName, string description, string password)
@@ -64,6 +58,11 @@ public class NetworkManager : MonoBehaviour
     private void OnPlayerConnected(NetworkPlayer player)
     {
         Debug.Log("Player connected from: " + player.ipAddress);
+    }
+
+    private void OnConnectedToServer()
+    {
+        Debug.Log("Connected to the server!");
     }
 
     private void OnFailedToConnect(NetworkConnectionError error)
@@ -117,13 +116,15 @@ public class NetworkManager : MonoBehaviour
     {
         if (Network.isServer)
         {
+            Network.Disconnect(300);
             MasterServer.UnregisterHost();
-            MasterServer.ClearHostList();
         }
+        if (Network.isClient)
+            Network.Disconnect(300);
     }
 
     private void OnApplicationQuit()
     {
-        UnRegisterGame();
+        NetworkManager.Instance.UnRegisterGame();
     }
 }

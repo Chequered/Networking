@@ -11,7 +11,6 @@ GameObject:
   - 212: {fileID: 21296464}
   - 114: {fileID: 11463486}
   - 61: {fileID: 6136200}
-  - 50: {fileID: 5096710}
   m_Layer: 0
   m_Name: TurretProjectile
   m_TagString: Untagged
@@ -31,21 +30,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5096710
-Rigidbody2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 187192}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_FixedAngle: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &6136200
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -65,11 +49,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187192}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d5638ab1f64b3941857d0f3ab78c96a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerTemp: {fileID: 166430, guid: 213eeb5211bda9f468145db6b36451dd, type: 2}
 --- !u!212 &21296464
 SpriteRenderer:
   m_ObjectHideFlags: 1
