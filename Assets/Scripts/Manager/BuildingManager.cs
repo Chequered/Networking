@@ -2,11 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 
+public enum BuildMode
+{
+    None,
+    Wall,
+    Turret
+}
+
 public class BuildingManager : MonoBehaviour {
 
     public static BuildingManager Instance;
 
     private List<Building> m_buildings;
+    private BuildMode m_buildMode;
 
     private void Start()
     {
@@ -19,29 +27,28 @@ public class BuildingManager : MonoBehaviour {
 
     }
 
-    public void BuildBuilding(int x, int y, BuildingType type)
+    public Building BuildBuilding(int x, int y, BuildingType type)
     {
+        Building building = null;
         if(GridManager.Instance.CanBuild(x, y, Building.SizeByType(type)))
         {
-            Building building = new Building(x, y);
-            building.Build(TeamData.TeamColorByID(NetworkManager.Instance.clientTeamID), type);
+            GameObject bObj = Network.Instantiate(Resources.Load("Buildings/" + type.ToString() + "/" + TeamData.TeamColorByID(NetworkManager.Instance.clientTeamID).ToString()), GridToWorld(x, y), Quaternion.identity, 0) as GameObject;
+
+            building = new Building(x, y);
+            building.Build(TeamData.TeamColorByID(NetworkManager.Instance.clientTeamID), type, bObj);
 
             m_buildings.Add(building);
             GridManager.Instance.RegisterBuilding(building.X, building.Y, building.Size, NetworkManager.Instance.clientTeamID);
-            GetComponent<NetworkView>().RPC("SyncNewBuilding", RPCMode.OthersBuffered, x, y, Building.IdByType(type), NetworkManager.Instance.clientTeamID);
 
-            Network.Instantiate(Resources.Load("Buildings/Building Placeholder"), GridToWorld(x, y), Quaternion.identity, 0);
+            //Sync to other players
+            bObj.GetComponent<NetworkView>().RPC("SyncBuilding", RPCMode.OthersBuffered, x, y, Building.IdByType(type), NetworkManager.Instance.clientTeamID);
         }
+        return building;
     }
 
-    [RPC]
-    private void SyncNewBuilding(int x, int y, int buildingID, int teamID)
+    public void AddBuilding(Building building)
     {
-        Building building = new Building(x, y);
-        building.Build(TeamData.TeamColorByID(teamID), Building.TypeById(buildingID));
-
         m_buildings.Add(building);
-        GridManager.Instance.RegisterBuilding(building.X, building.Y, building.Size, TeamData.TeamIDByColor(building.Team));
     }
 
 	public void RemoveBuilding(Building building)

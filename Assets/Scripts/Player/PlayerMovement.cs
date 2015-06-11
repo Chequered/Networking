@@ -3,12 +3,12 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour 
 {
-
 	private Rigidbody2D _playerRigid;
     private NetworkView _networkView;
 
 	private float _movementspeed = 10;
-	Vector2 vel;
+    private Vector2 vel;
+    private BuildMode _buildMode;
 
 	void Start()
 	{
@@ -63,6 +63,14 @@ public class PlayerMovement : MonoBehaviour
         {
             stream.Serialize(ref syncPosition);
             _playerRigid.position = syncPosition;
+        }
+    }
+
+    private void BuildBuilding()
+    {
+        if(BuildingManager.Instance.BuildBuilding(0, 0, Building.TypeByMode(_buildMode)) != null)
+        {
+            //play anim;
         }
     }
 }

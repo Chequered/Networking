@@ -6,7 +6,7 @@ public enum BuildingType
     HeadQuarters,
     Wall,
     Turret,
-    Cannon,
+    Drill,
     Resource
 }
 
@@ -17,6 +17,7 @@ public class Building {
     private int m_x;
     private int m_y;
     private int m_size;
+    private GameObject m_gameObject;
 
     public Building(int x, int y)
     {
@@ -24,11 +25,12 @@ public class Building {
         m_y = y;
     }
 
-    public void Build(Team team, BuildingType type)
+    public void Build(Team team, BuildingType type, GameObject gameObject)
     {
         m_type = type;
         m_size = SizeByType(type);
         m_team = team;
+        m_gameObject = gameObject;
     }
 
     #region getters
@@ -73,6 +75,14 @@ public class Building {
         }
     }
 
+    public GameObject GameObject
+    {
+        get
+        {
+            return m_gameObject;
+        }
+    }
+
     #endregion
 
     public static int SizeByType(BuildingType type)
@@ -88,7 +98,7 @@ public class Building {
             case BuildingType.Turret:
                 return 1;
                 break;
-            case BuildingType.Cannon:
+            case BuildingType.Drill:
                 return 2;
                 break;
             case BuildingType.Resource:
@@ -111,7 +121,7 @@ public class Building {
             case 3:
                 return BuildingType.Resource;
             case 4:
-                return BuildingType.Cannon;
+                return BuildingType.Drill;
             case 5:
                 return BuildingType.HeadQuarters;
             default:
@@ -129,12 +139,25 @@ public class Building {
                 return 2;
             case BuildingType.Resource:
                 return 3;
-            case BuildingType.Cannon:
+            case BuildingType.Drill:
                 return 4;
             case BuildingType.HeadQuarters:
                 return 5;
             default:
                 return 1;
         }
+    }
+
+    public static BuildingType TypeByMode(BuildMode mode)
+    {
+        switch (mode)
+	    {
+            case BuildMode.Wall:
+                return BuildingType.Wall;
+            case BuildMode.Turret:
+             return BuildingType.Turret;
+            default:
+             return BuildingType.Wall;
+	    }
     }
 }
