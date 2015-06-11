@@ -2,34 +2,26 @@ Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
-    Vendor:   Intel
-    VRAM:     128 MB
+    Renderer: NVIDIA GeForce GT 720M  (ID=0x1140)
+    Vendor:   NVIDIA
+    VRAM:     2000 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.051 seconds
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.203 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\System.dll (this message is harmless)
 Refreshing..
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
-
-Connected to master server at 127.0.0.1:23466
- 
-(Filename:  Line: 2493)
-
-Incoming host list query response from master server.
- 
-(Filename:  Line: 2493)
 
 No active servers has been found
  
@@ -38,6 +30,10 @@ No active servers has been found
 0 servers found.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Failed to connect to master server at 127.0.0.1:23466
+ 
+(Filename:  Line: 236)
 
 Running as server. Player ID is 0.
  
@@ -51,18 +47,6 @@ Attempting to connect to master server at 127.0.0.1:23466
  
 (Filename:  Line: 2493)
 
-Connected to master server at 127.0.0.1:23466
- 
-(Filename:  Line: 2493)
-
-Received identifier 0 from master server
- 
-(Filename:  Line: 2493)
-
-Registration succesful!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
-
 Sent RPC call 'ResetOldButton' to all connected clients
 
  
@@ -81,119 +65,9 @@ Added RPC 'UpdateTeamSlot' to buffer.
  
 (Filename:  Line: 2493)
 
-New connection established (172.17.59.116:53734)
+Failed to connect to master server at 127.0.0.1:23466
  
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 3 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 18 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 2 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 16 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 17 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 1 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 9 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 10 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 11 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 12 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 13 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 14 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 15 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 4 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 5 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 6 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 7 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-New scope index 0 is now in scope for SceneID: 8 Level Prefix: 0
- 
-(Filename:  Line: 2493)
-
-Sent initalization to player 1
- 
-(Filename:  Line: 2493)
-
-Player connected from: 172.17.59.116
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
-
-Sent host update to master server with identifier 0
- 
-(Filename:  Line: 2493)
-
-Received identifier 0 from master server
- 
-(Filename:  Line: 2493)
-
-Registration succesful!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
-
-Sent RPC call 'ResetOldButton' to all connected clients
-
- 
-(Filename:  Line: 2493)
-
-Added RPC 'ResetOldButton' to buffer.
- 
-(Filename:  Line: 2493)
-
-Sent RPC call 'UpdateTeamSlot' to all connected clients
-
- 
-(Filename:  Line: 2493)
-
-Added RPC 'UpdateTeamSlot' to buffer.
- 
-(Filename:  Line: 2493)
+(Filename:  Line: 236)
 
 Allocating view ID AllocatedID: 1.
 
@@ -218,6 +92,74 @@ Added RPC 'OnStartGame' to buffer.
  
 (Filename:  Line: 2493)
 
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
 Added RPC '__RPCNetworkInstantiate' to buffer.
  
 (Filename:  Line: 2493)
@@ -294,19 +236,2055 @@ Added RPC '__RPCNetworkInstantiate' to buffer.
  
 (Filename:  Line: 2493)
 
-A client has disconnected from this server. Player ID 1, IP 172.17.59.116:53734
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
  
 (Filename:  Line: 2493)
 
-Sent host update to master server with identifier 0
+Added RPC 'SyncNewBuilding' to buffer.
  
 (Filename:  Line: 2493)
 
-Received identifier 0 from master server
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
  
 (Filename:  Line: 2493)
 
-Registration succesful!
+Added RPC '__RPCNetworkInstantiate' to buffer.
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call 'SyncNewBuilding' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC 'SyncNewBuilding' to buffer.
+ 
+(Filename:  Line: 2493)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2493)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2493)
 
