@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 469986}
   - 212: {fileID: 21294704}
+  - 148: {fileID: 14881998}
+  - 114: {fileID: 11469964}
   m_Layer: 0
   m_Name: Yellow
   m_TagString: Untagged
@@ -28,6 +30,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11469964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122a79a60997e344d83f203880344919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!148 &14881998
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108620}
+  m_Enabled: 1
+  m_StateSynchronization: 0
+  m_Observed: {fileID: 0}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
 --- !u!212 &21294704
 SpriteRenderer:
   m_ObjectHideFlags: 1

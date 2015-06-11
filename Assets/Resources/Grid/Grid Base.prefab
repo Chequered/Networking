@@ -11,7 +11,6 @@ GameObject:
   - 61: {fileID: 6189908}
   - 23: {fileID: 2326304}
   - 33: {fileID: 3349556}
-  - 114: {fileID: 11473810}
   m_Layer: 8
   m_Name: Grid Base
   m_TagString: Grid Base
@@ -70,22 +69,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 124188}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
---- !u!114 &11473810
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 124188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66d52e9ebbe475443a0c8f3154bec5aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

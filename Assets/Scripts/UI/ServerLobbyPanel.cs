@@ -161,6 +161,8 @@ public class ServerLobbyPanel : MonoBehaviour {
                             0, 0, 0);
                     }
                 }
+                NetworkManager.Instance.clientPlayerID = m_newTeamID;
+                NetworkManager.Instance.clientTeamID = m_newTeamColorID;
                 timeOut = 0f;
             }else if(m_slotAvaiable == 2)
             {
@@ -209,7 +211,6 @@ public class ServerLobbyPanel : MonoBehaviour {
     [RPC]
     public void ReceiveResponce(int result)
     {
-        Debug.Log("Received responce: " + result);
         m_slotAvaiable = result;
     }
 
@@ -228,11 +229,11 @@ public class ServerLobbyPanel : MonoBehaviour {
                 }
             }
             m_gameLobby.JoinTeam(team, new Player(playerName, team, result), teamID);
-            UpdateTeamSlot(colorID, teamID, playerName);
+            UpdateTeamSlot(colorID, teamID, playerName, false);
         }
         ResetOldButton();
         GetComponent<NetworkView>().RPC("ResetOldButton", RPCMode.AllBuffered);
-        GetComponent<NetworkView>().RPC("UpdateTeamSlot", RPCMode.AllBuffered, colorID, teamID, playerName);
+        GetComponent<NetworkView>().RPC("UpdateTeamSlot", RPCMode.AllBuffered, colorID, teamID, playerName, false);
     }
 
     [RPC]
@@ -253,11 +254,9 @@ public class ServerLobbyPanel : MonoBehaviour {
     }
 
     [RPC]
-    public void UpdateTeamSlot(int colorID, int teamID, string playerName)
+    public void UpdateTeamSlot(int colorID, int teamID, string playerName, bool isMe)
     {
         transform.FindChild("Teams").FindChild("" + TeamData.TeamColorByID(colorID)).FindChild("" + teamID).GetComponent<JoinTeamButton>().UpdateButton(playerName);
-        NetworkManager.Instance.clientPlayerID = teamID;
-        NetworkManager.Instance.clientTeamID = colorID;
     }
 
     public void TogglePanel(string way)

@@ -65,6 +65,7 @@ GameObject:
   - 114: {fileID: 11412424}
   - 114: {fileID: 11400064}
   - 148: {fileID: 14851926}
+  - 114: {fileID: 11473936}
   m_Layer: 0
   m_Name: Player Red
   m_TagString: Untagged
@@ -109,7 +110,7 @@ Rigidbody2D:
   m_AngularDrag: .0500000007
   m_GravityScale: 0
   m_FixedAngle: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -170,6 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc89723c184828746835de356adc7f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  networkBool: 1
 --- !u!114 &11418154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,6 +214,17 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: PlayerName
+--- !u!114 &11473936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d52e9ebbe475443a0c8f3154bec5aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11491236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -233,8 +246,8 @@ NetworkView:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169388}
   m_Enabled: 1
-  m_StateSynchronization: 1
-  m_Observed: {fileID: 460710}
+  m_StateSynchronization: 2
+  m_Observed: {fileID: 11412424}
   m_ViewID:
     m_ID: 0
     m_Type: 0

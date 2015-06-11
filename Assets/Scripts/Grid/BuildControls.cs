@@ -7,10 +7,14 @@ public class BuildControls : MonoBehaviour {
     private Ray m_ray;
     private GameObject m_gridSelector;
     private GameObject m_playerGridPoint;
-    private BuildMode m_buildMode;
-        
+    private BuildMode m_buildMode = BuildMode.None;
+
     private void Start()
     {
+        if(!GetComponent<NetworkView>().isMine)
+        {
+            Destroy(this);
+        }
         m_gridSelector = GameObject.Instantiate(Resources.Load("Grid/Grid Selection Block") as GameObject);
         m_playerGridPoint = transform.FindChild("GridPoint").gameObject;
     }
@@ -20,6 +24,8 @@ public class BuildControls : MonoBehaviour {
         if(m_playerGridPoint !=  null)
         {
             RaycastHit2D hit = Physics2D.Raycast(m_playerGridPoint.transform.position, transform.forward, 9999, LayerMask.GetMask("GridBase"));
+
+            Debug.DrawRay(m_playerGridPoint.transform.position, transform.forward);
 
             if (hit.transform != null)
             {
@@ -36,6 +42,7 @@ public class BuildControls : MonoBehaviour {
                         if(m_buildMode != BuildMode.None)
                             BuildBuilding(x, y);
                     }
+                    Debug.Log("Can Build");
                 }
                 else
                 {
@@ -47,6 +54,7 @@ public class BuildControls : MonoBehaviour {
                 m_gridSelector.SetActive(false);
             }
         }
+
         if(Input.GetKeyUp(KeyCode.E))
         {
             m_buildMode = BuildMode.Turret;
@@ -59,7 +67,7 @@ public class BuildControls : MonoBehaviour {
 
     private void BuildBuilding(int x, int y)
     {
-        if (BuildingManager.Instance.BuildBuilding(0, 0, Building.TypeByMode(_buildMode)) != null)
+        if (BuildingManager.Instance.BuildBuilding(x, y, Building.TypeByMode(m_buildMode)) != null)
         {
             //play anim;
         }

@@ -12,6 +12,7 @@ public class PopupPanel : MonoBehaviour {
     private void Start()
     {
         m_canvasGroup = GetComponent<CanvasGroup>();
+        DontDestroyOnLoad(gameObject);
     }
 
     public void Message(string title, string content)

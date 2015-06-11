@@ -24,5 +24,10 @@ public class BuildingInfo : MonoBehaviour {
 
         BuildingManager.Instance.AddBuilding(building);
         GridManager.Instance.RegisterBuilding(building.X, building.Y, building.Size, TeamData.TeamIDByColor(building.Team));
+
+        if(teamID != NetworkManager.Instance.clientTeamID)
+        {
+            gameObject.AddComponent<BoxCollider2D>();
+        }
     }
 }

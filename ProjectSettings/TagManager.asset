@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Managers
   - ServerList
+  - GridPoint
+  - ServerPanel
+  - Grid Base
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - GridBase
   - 
   - 
   - 

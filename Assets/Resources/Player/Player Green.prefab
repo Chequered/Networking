@@ -65,6 +65,7 @@ GameObject:
   - 114: {fileID: 11471364}
   - 114: {fileID: 11426306}
   - 148: {fileID: 14896376}
+  - 114: {fileID: 11491248}
   m_Layer: 0
   m_Name: Player Green
   m_TagString: Untagged
@@ -109,7 +110,7 @@ Rigidbody2D:
   m_AngularDrag: .0500000007
   m_GravityScale: 0
   m_FixedAngle: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -212,6 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc89723c184828746835de356adc7f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  networkBool: 1
 --- !u!114 &11488326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -226,6 +228,17 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: .5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &11491248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d52e9ebbe475443a0c8f3154bec5aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!148 &14896376
 NetworkView:
   m_ObjectHideFlags: 1
@@ -233,8 +246,8 @@ NetworkView:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167346}
   m_Enabled: 1
-  m_StateSynchronization: 1
-  m_Observed: {fileID: 443202}
+  m_StateSynchronization: 2
+  m_Observed: {fileID: 11471364}
   m_ViewID:
     m_ID: 0
     m_Type: 0

@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 443636}
   - 212: {fileID: 21256806}
+  - 148: {fileID: 14814924}
+  - 114: {fileID: 11420614}
   m_Layer: 0
   m_Name: Red
   m_TagString: Untagged
@@ -28,6 +30,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11420614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122a79a60997e344d83f203880344919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!148 &14814924
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198238}
+  m_Enabled: 1
+  m_StateSynchronization: 0
+  m_Observed: {fileID: 0}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0
 --- !u!212 &21256806
 SpriteRenderer:
   m_ObjectHideFlags: 1

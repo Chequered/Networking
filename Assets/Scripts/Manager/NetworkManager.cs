@@ -24,10 +24,15 @@ public class NetworkManager : MonoBehaviour
         Instance = this;
         m_networkView = GetComponent<NetworkView>();
 
-        MasterServer.ipAddress = IP;
-        MasterServer.port = PORT;
+        //MasterServer.ipAddress = IP;
+        //MasterServer.port = PORT;
         //Network.natFacilitatorIP = IP;
         //Network.natFacilitatorPort = 50005;
+    }
+
+    void Update()
+    {
+        Debug.Log(clientTeamID);
     }
 
 	public void StartGame()
@@ -125,6 +130,6 @@ public class NetworkManager : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        NetworkManager.Instance.UnRegisterGame();
+        //NetworkManager.Instance.UnRegisterGame();
     }
 }
