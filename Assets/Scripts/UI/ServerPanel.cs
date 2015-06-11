@@ -28,7 +28,52 @@ public class ServerPanel : MonoBehaviour {
 
     public void Join()
     {
-        GameObject.Find("Server Lobby Panel").GetComponent<ServerLobbyPanel>().JoinAsClient(m_host);
+        GameObject.FindGameObjectWithTag("ServerList").GetComponent<ServerList>().SetPanelToWaiting(this);
+        Network.Connect(m_host);
+    }
+
+    public void StartConnection()
+    {
+        m_serverResponseTimeout = Time.time + 2f;
+        StartCoroutine(ConnectToGame());
+    }
+
+    private int m_serverResponse = 0;
+    private float m_serverResponseTimeout = 2f;
+    private IEnumerator ConnectToGame()
+    {
+        GameObject.FindGameObjectWithTag("Managers").GetComponent<NetworkView>().RPC("GameState", RPCMode.Server);
+
+        while (Time.time < m_serverResponseTimeout)
+        {
+            if (m_serverResponse == 1)
+            {
+                //succes - lobby   
+                GameObject.Find("Server Lobby Panel").GetComponent<ServerLobbyPanel>().JoinAsClient();
+                m_serverResponseTimeout = 0f;
+            }
+            else if (m_serverResponseTimeout == 2)
+            {
+                //succes - inSession
+                SceneManager.Instance.BuildScene();                
+                m_serverResponseTimeout = 0f;
+            }
+            else if (m_serverResponse == 3)
+            {
+                CanvasManager.Instance.PopUp("Server full", "This Server has reached it's maximun amount of players, please wait and try again or try a different server.");
+            }
+            else if(m_serverResponse > 3)
+            {
+                CanvasManager.Instance.PopUp("Unkown Error", "An unknown error occured while trying to connect to the server.");
+            }
+            yield return new WaitForEndOfFrame();
+        }
+    }
+
+    [RPC]
+    public void ReceiveResponce(int responce)
+    {
+        m_serverResponse = responce;
     }
 
 }

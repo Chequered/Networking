@@ -39,6 +39,16 @@ public class SceneManager : MonoBehaviour {
     {
         m_playerObject = Network.Instantiate(Resources.Load("Player/PlayerPlaceholder") as GameObject, Vector2.zero, Quaternion.identity, 0) as GameObject;
         m_playerObject.AddComponent<MousePositionTracker>();
+        m_playerObject.GetComponent<NetworkView>().RPC("SetPlayerName", RPCMode.AllBuffered, NetworkManager.Instance.clientPlayerName);
+        m_playerObject.GetComponent<PlayerInfo>().SetPlayerName(NetworkManager.Instance.clientPlayerName);
     }
-    
+
+    private void OnDisconnectedFromServer(NetworkDisconnection info)
+    {
+        Network.Destroy(m_playerObject);
+        CanvasManager.Instance.CloseAllMenus();
+        CanvasManager.Instance.pauseMenu.GetComponent<PauseMenuActions>().OpenPauseMenu();
+        if(info == NetworkDisconnection.LostConnection)
+            CanvasManager.Instance.PopUp("Lost Connection", "Connection to the game has been lost. Either the host closed the server or there is something wrong with your internet connection");
+    }
 }

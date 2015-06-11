@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 22a426332c1568c4f944836b5309db6d
+timeCreated: 1433971160
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Char_Red_Atk_Hor_0
+    21300002: Char_Red_Atk_Hor_1
+    21300004: Char_Red_Atk_Hor_2
+    21300006: Char_Red_Atk_Hor_3
+    21300008: Char_Red_Atk_Hor_4
+    21300010: Char_Red_Atk_Hor_5
+    21300012: Char_Red_Atk_Hor_6
+    21300014: Char_Red_Atk_Hor_7
+    21300016: Char_Red_Atk_Hor_8
+    21300018: Char_Red_Atk_Hor_9
+    21300020: Char_Red_Atk_Hor_10
+    21300022: Char_Red_Atk_Hor_11
+    21300024: Char_Red_Atk_Hor_12
+    21300026: Char_Red_Atk_Hor_13
+    21300028: Char_Red_Atk_Hor_14
+    21300030: Char_Red_Atk_Hor_15
+    21300032: Char_Red_Atk_Hor_16
+    21300034: Char_Red_Atk_Hor_17
+    21300036: Char_Red_Atk_Hor_18
+    21300038: Char_Red_Atk_Hor_19
+    21300040: Char_Red_Atk_Hor_20
+    21300042: Char_Red_Atk_Hor_21
+    21300044: Char_Red_Atk_Hor_22
+    21300046: Char_Red_Atk_Hor_23
+    21300048: Char_Red_Atk_Hor_24
+    21300050: Char_Red_Atk_Hor_25
+    21300052: Char_Red_Atk_Hor_26
+    21300054: Char_Red_Atk_Hor_27
+    21300056: Char_Red_Atk_Hor_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Char_Red_Atk_Hor_12
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 341
+        width: 114
+        height: 67
+      alignment: 9
+      pivot: {x: .730552256, y: .0941084698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_13
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 341
+        width: 114
+        height: 67
+      alignment: 9
+      pivot: {x: .731048048, y: .106203906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_14
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 341
+        width: 114
+        height: 67
+      alignment: 9
+      pivot: {x: .737091601, y: .0971820876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 230
+        width: 114
+        height: 67
+      alignment: 9
+      pivot: {x: .73791635, y: .0950779691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 230
+        width: 115
+        height: 67
+      alignment: 9
+      pivot: {x: .745917797, y: .110205121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 230
+        width: 115
+        height: 67
+      alignment: 9
+      pivot: {x: .739834964, y: .0943589881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_18
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 230
+        width: 150
+        height: 104
+      alignment: 9
+      pivot: {x: .305358887, y: .0661249906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_19
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 230
+        width: 150
+        height: 104
+      alignment: 9
+      pivot: {x: .301658928, y: .0603254773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 119
+        width: 150
+        height: 104
+      alignment: 9
+      pivot: {x: .301980346, y: .0496532731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 119
+        width: 116
+        height: 76
+      alignment: 9
+      pivot: {x: .0839764848, y: .0698487163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_22
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 119
+        width: 116
+        height: 76
+      alignment: 9
+      pivot: {x: .0939599425, y: .0619130395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_23
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 119
+        width: 116
+        height: 76
+      alignment: 9
+      pivot: {x: .103112586, y: .0758827627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_24
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 119
+        width: 117
+        height: 58
+      alignment: 9
+      pivot: {x: .0910399333, y: .109000631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 8
+        width: 117
+        height: 59
+      alignment: 9
+      pivot: {x: .100937866, y: .107153311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 8
+        width: 117
+        height: 61
+      alignment: 9
+      pivot: {x: .0875322372, y: .105219826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 9
+        width: 117
+        height: 61
+      alignment: 9
+      pivot: {x: .0957826823, y: .0945423171}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

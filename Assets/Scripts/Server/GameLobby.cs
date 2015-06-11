@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameLobby {
 
     private TeamData[] m_teams;
     private int[] m_teamResources;
+
+    private int m_kickID;
 
     public GameLobby()
     {
@@ -60,6 +63,33 @@ public class GameLobby {
             }
         }
         return false;
+    }
+
+    public int[] RemovePlayer(NetworkPlayer player)
+    {
+        int[] result = new int[2];
+        for (int i = 0; i < m_teams.Length; i++)
+        {
+            for (int j = 0; j < m_teams[i].Players.Length; j++)
+            {
+                Player p = m_teams[i].Players[j];
+
+                if(p != null)
+                {
+                    if (p.PlayerData == player)
+                    {
+                        result[0] = TeamData.TeamIDByColor(p.Team);
+                        result[1] = System.Array.IndexOf(m_teams[i].Players, p) + 1;
+                        m_kickID = j;
+
+                        break;
+                    }
+
+                }
+            }
+            m_teams[i].Players[m_kickID] = null;
+        }
+        return result;
     }
 
     public int TeamHavePlayers()

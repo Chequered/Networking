@@ -8,8 +8,9 @@ public class ServerList : MonoBehaviour {
     [SerializeField] private GameObject serverListWrapper;
     [SerializeField] private CanvasGroup m_canvasGroup;
 
-    private List<ServerPanel> m_panels;
+    private List<GameObject> m_panels;
     private bool listNeedsRebuild;
+    private ServerPanel m_waitingServerPanel;
 
     private void Start()
     {
@@ -18,10 +19,17 @@ public class ServerList : MonoBehaviour {
 
     public void RefreshList()
     {
-        m_panels = new List<ServerPanel>();
-        StartCoroutine(NetworkManager.Instance.RefreshHostList());
         DestroyList();
+        StartCoroutine(NetworkManager.Instance.RefreshHostList());
         listNeedsRebuild = true;
+    }
+
+    public void OnConnectedToServer()
+    {
+        if(m_waitingServerPanel != null)
+        {
+            m_waitingServerPanel.StartConnection();
+        }
     }
 
     private void Update()
@@ -36,6 +44,7 @@ public class ServerList : MonoBehaviour {
                     panel.transform.parent = serverListWrapper.transform;
                     panel.GetComponent<ServerPanel>().SetPosition(i);
                     panel.GetComponent<ServerPanel>().SetServer(NetworkManager.Instance.hostData[i]);
+                    m_panels.Add(panel);
                 }
                 listNeedsRebuild = false;
             }
@@ -44,14 +53,30 @@ public class ServerList : MonoBehaviour {
 
     private void DestroyList()
     {
-        foreach (ServerPanel panel in m_panels)
+        if(m_panels != null)
         {
-            Destroy(panel.gameObject);
+            foreach (GameObject panel in m_panels)
+            {
+                Destroy(panel.gameObject);
+            }
         }
+        m_panels = new List<GameObject>();
+    }
+
+    public void SetPanelToWaiting(ServerPanel panel)
+    {
+        m_waitingServerPanel = panel;
+    }
+
+    [RPC]
+    public void ReceiveResponce(int responce)
+    {
+        m_waitingServerPanel.ReceiveResponce(responce);
     }
 
     public void BackToMain()
     {
+        CanvasManager.Instance.pauseMenu.GetComponent<PauseMenuActions>().OpenPauseMenu();
         m_canvasGroup.alpha = 0;
         m_canvasGroup.interactable = false;
         m_canvasGroup.blocksRaycasts = false;

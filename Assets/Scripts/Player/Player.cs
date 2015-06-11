@@ -20,13 +20,15 @@ public class Player {
     private int m_hp;
     private int m_damage;
     private int m_resources;
+    private NetworkPlayer m_playerData;
 
-    public Player(string name, Team team)
+    public Player(string name, Team team, NetworkPlayer playerData)
     {
         m_name = name;
         m_team = team;
         m_hp = STARTING_HITPOINTS;
         m_damage = STARTING_DAMAGE;
+        m_playerData = playerData;
     }
 
     public void TakeResources(int resourcesToTake)
@@ -77,6 +79,14 @@ public class Player {
         get
         {
             return m_resources;
+        }
+    }
+
+    public NetworkPlayer PlayerData
+    {
+        get
+        {
+            return m_playerData;
         }
     }
 }

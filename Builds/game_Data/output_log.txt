@@ -6,6 +6,7 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     2000 MB
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
@@ -14,23 +15,58 @@ Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\
 Loading C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 - Completed reload, in  0.203 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+=======
+Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Daan\Documents\GitHub\Networking\Builds\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.055 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+>>>>>>> origin/master
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Yornie\Documents\GitHub\Networking\Builds\game_Data\Managed\System.dll (this message is harmless)
 Refreshing..
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:87)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:62)
+ServerList:RefreshList() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerList.cs:23)
+ServerList:Start() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerList.cs:17)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 87)
 
-No active servers has been found
+<<<<<<< HEAD
+=======
+Connected to master server at 172.17.59.116:23466
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+Incoming host list query response from master server.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
+
+>>>>>>> origin/master
+No active servers has been found
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:103)
+ 
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 103)
 
 0 servers found.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:105)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 105)
 
+<<<<<<< HEAD
 Failed to connect to master server at 127.0.0.1:23466
  
 (Filename:  Line: 236)
@@ -318,32 +354,77 @@ Added RPC 'SyncNewBuilding' to buffer.
 (Filename:  Line: 2493)
 
 Sent RPC call '__RPCNetworkInstantiate' to all connected clients
-
+=======
+Refreshing..
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:87)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviour.gen.cs:62)
+ServerList:RefreshList() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerList.cs:23)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:110)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:574)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:716)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:358)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:249)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:160)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:272)
  
-(Filename:  Line: 2493)
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 87)
+>>>>>>> origin/master
 
-Added RPC '__RPCNetworkInstantiate' to buffer.
+Incoming host list query response from master server.
  
-(Filename:  Line: 2493)
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
 
-Sent RPC call 'SyncNewBuilding' to all connected clients
-
+1 servers found.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RefreshHostList>c__Iterator0:MoveNext() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\Manager\NetworkManager.cs:105)
  
-(Filename:  Line: 2493)
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/Manager/NetworkManager.cs Line: 105)
 
-Added RPC 'SyncNewBuilding' to buffer.
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.Transform:set_parent(Transform) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineTransform.gen.cs:119)
+ServerList:Update() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerList.cs:45)
  
-(Filename:  Line: 2493)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineTransform.gen.cs Line: 119)
 
-Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+Running as client. No player ID set yet.
+UnityEngine.Network:Internal_ConnectToIPs(String[], Int32, Int32, String)
+UnityEngine.Network:Connect(String[], Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:559)
+UnityEngine.Network:Connect(HostData, String) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:587)
+UnityEngine.Network:Connect(HostData) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\Networking.gen.cs:578)
+ServerPanel:Join() (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerPanel.cs:32)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:110)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:574)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:716)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:358)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:249)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:160)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:272)
 
- 
-(Filename:  Line: 2493)
+[C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp line 2493] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/Networking.gen.cs Line: 559)
 
-Added RPC '__RPCNetworkInstantiate' to buffer.
+Connected to 172.17.59.116:25002
+
  
-(Filename:  Line: 2493)
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
 
+<<<<<<< HEAD
 Sent RPC call 'SyncNewBuilding' to all connected clients
 
  
@@ -354,14 +435,26 @@ Added RPC 'SyncNewBuilding' to buffer.
 (Filename:  Line: 2493)
 
 Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+=======
+Set player ID to 1
 
+>>>>>>> origin/master
  
-(Filename:  Line: 2493)
+(Filename: C:/buildslave/unity/build/Runtime/Network/NetworkManager.cpp Line: 2493)
 
+<<<<<<< HEAD
 Added RPC '__RPCNetworkInstantiate' to buffer.
+=======
+Received responce: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ServerLobbyPanel:ReceiveResponce(Int32) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerLobbyPanel.cs:213)
+>>>>>>> origin/master
  
-(Filename:  Line: 2493)
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/UI/ServerLobbyPanel.cs Line: 213)
 
+<<<<<<< HEAD
 Sent RPC call 'SyncNewBuilding' to all connected clients
 
  
@@ -2287,4 +2380,13 @@ Sent RPC call '__RPCNetworkInstantiate' to all connected clients
 Added RPC '__RPCNetworkInstantiate' to buffer.
  
 (Filename:  Line: 2493)
+=======
+Received responce: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ServerLobbyPanel:ReceiveResponce(Int32) (at C:\Users\Daan\Documents\GitHub\Networking\Assets\Scripts\UI\ServerLobbyPanel.cs:213)
+ 
+(Filename: C:/Users/Daan/Documents/GitHub/Networking/Assets/Scripts/UI/ServerLobbyPanel.cs Line: 213)
+>>>>>>> origin/master
 
+Waiting for finish

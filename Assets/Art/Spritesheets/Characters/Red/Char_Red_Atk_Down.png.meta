@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 69ac22a1a7ecddd44ba72b6c2d58d99e
+timeCreated: 1433970921
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RED_attack_onder_W105.00_H145.00_0
+    21300002: RED_attack_onder_W105.00_H145.00_1
+    21300004: RED_attack_onder_W105.00_H145.00_2
+    21300006: RED_attack_onder_W105.00_H145.00_3
+    21300008: RED_attack_onder_W105.00_H145.00_4
+    21300010: RED_attack_onder_W105.00_H145.00_5
+    21300012: RED_attack_onder_W105.00_H145.00_6
+    21300014: RED_attack_onder_W105.00_H145.00_7
+    21300016: RED_attack_onder_W105.00_H145.00_8
+    21300018: RED_attack_onder_W105.00_H145.00_9
+    21300020: RED_attack_onder_W105.00_H145.00_10
+    21300022: RED_attack_onder_W105.00_H145.00_11
+    21300024: RED_attack_onder_W105.00_H145.00_12
+    21300026: RED_attack_onder_W105.00_H145.00_13
+    21300028: RED_attack_onder_W105.00_H145.00_14
+    21300030: RED_attack_onder_W105.00_H145.00_15
+    21300032: RED_attack_onder_W105.00_H145.00_16
+    21300034: RED_attack_onder_W105.00_H145.00_17
+    21300036: RED_attack_onder_W105.00_H145.00_18
+    21300038: RED_attack_onder_W105.00_H145.00_19
+    21300040: RED_attack_onder_W105.00_H145.00_20
+    21300042: RED_attack_onder_W105.00_H145.00_21
+    21300044: RED_attack_onder_W105.00_H145.00_22
+    21300046: RED_attack_onder_W105.00_H145.00_23
+    21300048: RED_attack_onder_W105.00_H145.00_24
+    21300050: RED_attack_onder_W105.00_H145.00_25
+    21300052: RED_attack_onder_W105.00_H145.00_26
+    21300054: RED_attack_onder_W105.00_H145.00_27
+    21300056: RED_attack_onder_W105.00_H145.00_28
+    21300058: RED_attack_onder_W105.00_H145.00_29
+    21300060: RED_attack_onder_W105.00_H145.00_30
+    21300062: RED_attack_onder_W105.00_H145.00_31
+    21300064: RED_attack_onder_W105.00_H145.00_32
+    21300066: RED_attack_onder_W105.00_H145.00_33
+    21300068: RED_attack_onder_W105.00_H145.00_34
+    21300070: RED_attack_onder_W105.00_H145.00_35
+    21300072: RED_attack_onder_W105.00_H145.00_36
+    21300074: RED_attack_onder_W105.00_H145.00_37
+    21300076: RED_attack_onder_W105.00_H145.00_38
+    21300078: RED_attack_onder_W105.00_H145.00_39
+    21300080: RED_attack_onder_W105.00_H145.00_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RED_attack_onder_W105.00_H145.00_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 752
+        width: 55
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 606
+        width: 54
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 607
+        width: 52
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 607
+        width: 51
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 607
+        width: 51
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 606
+        width: 51
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_13
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 606
+        width: 51
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_14
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 615
+        width: 54
+        height: 96
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_15
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 615
+        width: 54
+        height: 97
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 469
+        width: 54
+        height: 98
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 469
+        width: 54
+        height: 100
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 469
+        width: 54
+        height: 101
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 469
+        width: 54
+        height: 102
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_20
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 469
+        width: 54
+        height: 103
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_21
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 469
+        width: 54
+        height: 103
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_22
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 469
+        width: 54
+        height: 104
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_23
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 469
+        width: 54
+        height: 105
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 323
+        width: 54
+        height: 106
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 294
+        width: 61
+        height: 136
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 294
+        width: 61
+        height: 136
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_27
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 294
+        width: 61
+        height: 136
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_28
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 293
+        width: 61
+        height: 137
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_29
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 293
+        width: 61
+        height: 104
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_30
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 293
+        width: 61
+        height: 104
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_31
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 294
+        width: 61
+        height: 103
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 148
+        width: 61
+        height: 103
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_33
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 148
+        width: 61
+        height: 78
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 148
+        width: 61
+        height: 80
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 148
+        width: 61
+        height: 81
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_36
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 147
+        width: 61
+        height: 83
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RED_attack_onder_W105.00_H145.00_37
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 147
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
