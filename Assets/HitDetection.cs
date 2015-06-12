@@ -6,6 +6,9 @@ public class HitDetection : MonoBehaviour
 {
 	List<GameObject> LPlayers = new List<GameObject> ();
 
+	void Update()
+	{
+	}
 
 	void OnTriggerEnter2D(Collider2D col)
 	{

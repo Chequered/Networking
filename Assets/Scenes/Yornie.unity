@@ -87,6 +87,40 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &246596579 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 173476, guid: 213eeb5211bda9f468145db6b36451dd, type: 2}
+  m_PrefabInternal: {fileID: 928281902}
+--- !u!1 &903307789 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 166430, guid: 213eeb5211bda9f468145db6b36451dd, type: 2}
+  m_PrefabInternal: {fileID: 928281902}
+--- !u!114 &903307790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903307789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11499488ca1fceb499ac1ac2af19f50d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _upDetect: {fileID: 1659120493}
+  _leftDetect: {fileID: 246596579}
+  _rightDetect: {fileID: 1814948406}
+  _downDetect: {fileID: 1296973339}
+--- !u!114 &903307791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903307789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f930839f8627f64f80d3718dfa38b3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &928281902
 Prefab:
   m_ObjectHideFlags: 0
@@ -241,6 +275,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &1296973339 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 110436, guid: 213eeb5211bda9f468145db6b36451dd, type: 2}
+  m_PrefabInternal: {fileID: 928281902}
+--- !u!1 &1659120493 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 124108, guid: 213eeb5211bda9f468145db6b36451dd, type: 2}
+  m_PrefabInternal: {fileID: 928281902}
+--- !u!1 &1814948406 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 168864, guid: 213eeb5211bda9f468145db6b36451dd, type: 2}
+  m_PrefabInternal: {fileID: 928281902}
 --- !u!1001 &2121871185
 Prefab:
   m_ObjectHideFlags: 0
