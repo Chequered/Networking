@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: dbfd7e84c6c58df43ba7a27148a66b8a
+timeCreated: 1434278829
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GREEN_bomb_spawn_W120.00_H105.00_0
+    21300002: GREEN_bomb_spawn_W120.00_H105.00_1
+    21300004: GREEN_bomb_spawn_W120.00_H105.00_2
+    21300006: GREEN_bomb_spawn_W120.00_H105.00_3
+    21300008: GREEN_bomb_spawn_W120.00_H105.00_4
+    21300010: GREEN_bomb_spawn_W120.00_H105.00_5
+    21300012: GREEN_bomb_spawn_W120.00_H105.00_6
+    21300014: GREEN_bomb_spawn_W120.00_H105.00_7
+    21300016: GREEN_bomb_spawn_W120.00_H105.00_8
+    21300018: GREEN_bomb_spawn_W120.00_H105.00_9
+    21300020: GREEN_bomb_spawn_W120.00_H105.00_10
+    21300022: GREEN_bomb_spawn_W120.00_H105.00_11
+    21300024: GREEN_bomb_spawn_W120.00_H105.00_12
+    21300026: GREEN_bomb_spawn_W120.00_H105.00_13
+    21300028: GREEN_bomb_spawn_W120.00_H105.00_14
+    21300030: GREEN_bomb_spawn_W120.00_H105.00_15
+    21300032: GREEN_bomb_spawn_W120.00_H105.00_16
+    21300034: GREEN_bomb_spawn_W120.00_H105.00_17
+    21300036: GREEN_bomb_spawn_W120.00_H105.00_18
+    21300038: GREEN_bomb_spawn_W120.00_H105.00_19
+    21300040: GREEN_bomb_spawn_W120.00_H105.00_20
+    21300042: GREEN_bomb_spawn_W120.00_H105.00_21
+    21300044: GREEN_bomb_spawn_W120.00_H105.00_22
+    21300046: GREEN_bomb_spawn_W120.00_H105.00_23
+    21300048: GREEN_bomb_spawn_W120.00_H105.00_24
+    21300050: GREEN_bomb_spawn_W120.00_H105.00_25
+    21300052: GREEN_bomb_spawn_W120.00_H105.00_26
+    21300054: GREEN_bomb_spawn_W120.00_H105.00_27
+    21300056: GREEN_bomb_spawn_W120.00_H105.00_28
+    21300058: GREEN_bomb_spawn_W120.00_H105.00_29
+    21300060: GREEN_bomb_spawn_W120.00_H105.00_30
+    21300062: GREEN_bomb_spawn_W120.00_H105.00_31
+    21300064: GREEN_bomb_spawn_W120.00_H105.00_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GREEN_bomb_spawn_W120.00_H105.00_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 850
+        width: 87
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 850
+        width: 87
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 850
+        width: 87
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 850
+        width: 87
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 745
+        width: 87
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 745
+        width: 80
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 745
+        width: 74
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 745
+        width: 68
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 640
+        width: 61
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 640
+        width: 56
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 640
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 640
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 535
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 535
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 535
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_15
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 535
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 430
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 430
+        width: 52
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_18
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 430
+        width: 53
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_19
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 430
+        width: 54
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 325
+        width: 64
+        height: 76
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 325
+        width: 80
+        height: 94
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 325
+        width: 80
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 325
+        width: 80
+        height: 82
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 220
+        width: 79
+        height: 77
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_25
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 220
+        width: 79
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_26
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 220
+        width: 79
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 220
+        width: 78
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 115
+        width: 79
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 115
+        width: 79
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_30
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 115
+        width: 80
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 115
+        width: 81
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_bomb_spawn_W120.00_H105.00_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 81
+        height: 74
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

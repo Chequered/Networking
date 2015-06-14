@@ -18,11 +18,14 @@ public class Building {
     private int m_y;
     private int m_size;
     private GameObject m_gameObject;
+    private int[] m_captureProgress;
+    private int m_hitPoints;
 
     public Building(int x, int y)
     {
         m_x = x;
         m_y = y;
+        m_captureProgress = new int[4];
     }
 
     public void Build(Team team, BuildingType type, GameObject gameObject)
@@ -31,6 +34,38 @@ public class Building {
         m_size = SizeByType(type);
         m_team = team;
         m_gameObject = gameObject;
+        m_hitPoints = HPByType(m_type);
+    }
+
+    public int ProgressCapture(int teamID)
+    {
+        for (int i = 0; i < m_captureProgress.Length; i++)
+        {
+            if(i != teamID - 1)
+            {
+                m_captureProgress[i] = 0;
+            }
+        }
+        m_captureProgress[teamID - 1] += 20;
+        Mathf.Clamp(m_captureProgress[teamID - 1], 0, 100);
+        return m_captureProgress[teamID - 1];
+    }
+
+    public void ChangeTeam(int newTeamID)
+    {
+        m_team = TeamData.TeamColorByID(newTeamID);
+        m_gameObject.GetComponent<BuildingInfo>().ChangeTeamGraphics(newTeamID);
+        m_gameObject.GetComponent<NetworkView>().RPC("ChangeTeamGraphics", RPCMode.AllBuffered, newTeamID);
+    }
+
+    public bool DoDamage(int dmg)
+    {
+        m_hitPoints -= dmg;
+        if(m_hitPoints <= 0)
+        {
+            return true;
+        }
+        return false;
     }
 
     #region getters
@@ -83,30 +118,44 @@ public class Building {
         }
     }
 
+    private int HPByType(BuildingType type)
+    {
+        switch (type)
+        {
+            case BuildingType.HeadQuarters:
+                return 500;
+            case BuildingType.Wall:
+                return 50;
+            case BuildingType.Turret:
+                return 25;
+            case BuildingType.Drill:
+                return 50000;
+            case BuildingType.Resource:
+                return 1000;
+            default:
+                return 50000;
+        }
+    }
+
     #endregion
 
+    #region converters
     public static int SizeByType(BuildingType type)
     {
         switch (type)
         {
             case BuildingType.HeadQuarters:
                 return 3;
-                break;
             case BuildingType.Wall:
                 return 1;
-                break;
             case BuildingType.Turret:
                 return 1;
-                break;
             case BuildingType.Drill:
                 return 2;
-                break;
             case BuildingType.Resource:
                 return 2;
-                break;
             default:
                 return 1;
-                break;
         }
     }
 
@@ -160,4 +209,25 @@ public class Building {
              return BuildingType.Wall;
 	    }
     }
+
+    public static int CostById(int buildingID)
+    {
+        switch (buildingID)
+        {
+            case 1:
+                return 10;
+            case 2:
+                return 35;
+            case 3:
+                return 0;
+            case 4:
+                return 0;
+            case 5:
+                return 0;
+            default:
+                return 10;
+        }
+    }
+
+#endregion
 }

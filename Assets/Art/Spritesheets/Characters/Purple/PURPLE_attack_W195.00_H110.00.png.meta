@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: ba32ffd1f704e6c4ab918a3866b08232
+timeCreated: 1434277799
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PURPLE_attack_W195.00_H110.00_0
+    21300002: PURPLE_attack_W195.00_H110.00_1
+    21300004: PURPLE_attack_W195.00_H110.00_2
+    21300006: PURPLE_attack_W195.00_H110.00_3
+    21300008: PURPLE_attack_W195.00_H110.00_4
+    21300010: PURPLE_attack_W195.00_H110.00_5
+    21300012: PURPLE_attack_W195.00_H110.00_6
+    21300014: PURPLE_attack_W195.00_H110.00_7
+    21300016: PURPLE_attack_W195.00_H110.00_8
+    21300018: PURPLE_attack_W195.00_H110.00_9
+    21300020: PURPLE_attack_W195.00_H110.00_10
+    21300022: PURPLE_attack_W195.00_H110.00_11
+    21300024: PURPLE_attack_W195.00_H110.00_12
+    21300026: PURPLE_attack_W195.00_H110.00_13
+    21300028: PURPLE_attack_W195.00_H110.00_14
+    21300030: PURPLE_attack_W195.00_H110.00_15
+    21300032: PURPLE_attack_W195.00_H110.00_16
+    21300034: PURPLE_attack_W195.00_H110.00_17
+    21300036: PURPLE_attack_W195.00_H110.00_18
+    21300038: PURPLE_attack_W195.00_H110.00_19
+    21300040: PURPLE_attack_W195.00_H110.00_20
+    21300042: PURPLE_attack_W195.00_H110.00_21
+    21300044: PURPLE_attack_W195.00_H110.00_22
+    21300046: PURPLE_attack_W195.00_H110.00_23
+    21300048: PURPLE_attack_W195.00_H110.00_24
+    21300050: PURPLE_attack_W195.00_H110.00_25
+    21300052: PURPLE_attack_W195.00_H110.00_26
+    21300054: PURPLE_attack_W195.00_H110.00_27
+    21300056: PURPLE_attack_W195.00_H110.00_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PURPLE_attack_W195.00_H110.00_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 783
+        width: 90
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 783
+        width: 90
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 783
+        width: 90
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_3
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 783
+        width: 109
+        height: 77
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 672
+        width: 110
+        height: 77
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 672
+        width: 111
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 672
+        width: 112
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_7
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 672
+        width: 112
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 561
+        width: 113
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 561
+        width: 114
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_10
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 561
+        width: 113
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 561
+        width: 113
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 450
+        width: 114
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 450
+        width: 114
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_14
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 450
+        width: 114
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_15
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 450
+        width: 114
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 339
+        width: 115
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 339
+        width: 115
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_18
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 337
+        width: 150
+        height: 106
+      alignment: 9
+      pivot: {x: .265801996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_19
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 338
+        width: 150
+        height: 105
+      alignment: 9
+      pivot: {x: .265801996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 228
+        width: 150
+        height: 104
+      alignment: 9
+      pivot: {x: .265801996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 228
+        width: 116
+        height: 76
+      alignment: 9
+      pivot: {x: .0557435118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_22
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 228
+        width: 116
+        height: 76
+      alignment: 9
+      pivot: {x: .0557435118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_23
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 228
+        width: 116
+        height: 76
+      alignment: 9
+      pivot: {x: .0557435118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 116
+        width: 110
+        height: 62
+      alignment: 9
+      pivot: {x: .0557435118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 116
+        width: 110
+        height: 62
+      alignment: 9
+      pivot: {x: .0557435118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_26
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 115
+        width: 110
+        height: 65
+      alignment: 9
+      pivot: {x: .0557435118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_27
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 115
+        width: 110
+        height: 65
+      alignment: 9
+      pivot: {x: .0557435118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PURPLE_attack_W195.00_H110.00_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 6
+        width: 90
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

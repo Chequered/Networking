@@ -4,7 +4,7 @@ using System.Collections;
 public enum Team
 {
     None,
-    Blue,
+    Purple,
     Red,
     Yellow,
     Green
@@ -12,12 +12,10 @@ public enum Team
 
 public class Player {
 
-    public const int STARTING_HITPOINTS = 100;
     public const int STARTING_DAMAGE = 12;
 
     private string m_name;
     private Team m_team;
-    private int m_hp;
     private int m_damage;
     private int m_resources;
     private NetworkPlayer m_playerData;
@@ -26,20 +24,8 @@ public class Player {
     {
         m_name = name;
         m_team = team;
-        m_hp = STARTING_HITPOINTS;
         m_damage = STARTING_DAMAGE;
         m_playerData = playerData;
-    }
-
-    public void TakeResources(int resourcesToTake)
-    {
-        m_resources -= resourcesToTake;
-        if(m_resources < 0)
-        {
-            m_resources = 0;
-        }
-
-        //Update UI
     }
 
     public string Name
@@ -55,14 +41,6 @@ public class Player {
         get
         {
             return m_team;
-        }
-    }
-
-    public int HP
-    {
-        get
-        {
-            return m_hp;
         }
     }
 

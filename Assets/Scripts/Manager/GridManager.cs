@@ -17,7 +17,7 @@ public class GridManager : MonoBehaviour {
         Instance = this;
     }
 
-    public void GenerateGrid()
+    public void GenerateGrid(bool buildAfterwards = true)
     {
         for (int x = 0; x < WORLD_WIDTH; x++)
         {
@@ -26,7 +26,8 @@ public class GridManager : MonoBehaviour {
                 m_grid[x, y] = new Grid(x, y, Team.None);
             }
         }
-        Instantiate(Resources.Load("Grid/Grid Base") as GameObject, new Vector3(0, 0, 0), Quaternion.identity);
+        if (buildAfterwards)
+            Instantiate(Resources.Load("Grid/Grid Base") as GameObject, new Vector3(0, 0, 0), Quaternion.identity);
     }
 
     [RPC]
@@ -35,6 +36,11 @@ public class GridManager : MonoBehaviour {
         int startX = bX;
         int startY = bY;
         int size = bSize;
+
+        if(m_grid[bX, bY] == null)
+        {
+            GenerateGrid(false);
+        }
 
         if(size == 1)
         {

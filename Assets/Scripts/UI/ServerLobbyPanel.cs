@@ -84,6 +84,18 @@ public class ServerLobbyPanel : MonoBehaviour {
         transform.FindChild("Start Game Button").GetComponent<StartGameButton>().EnableButton();
     }
 
+    public void StartGame()
+    {
+        if (Network.isServer)
+        {
+            if (ServerLobbyPanel.Instance.HasEnoughPlayers)
+            {
+                ServerMaster.Instance.Lobby = m_gameLobby;
+                NetworkManager.Instance.StartGame();
+            }
+        }
+    }
+    
     private int m_newTeamID;
     private int m_newTeamColorID;
     private string m_newPlayerName;
@@ -125,20 +137,14 @@ public class ServerLobbyPanel : MonoBehaviour {
                         RPCMode.Server,
                         m_newTeamID,
                         m_newTeamColorID,
-                        m_newPlayerName,
-                        TeamData.TeamIDByColor(m_oldButton.oldTeam),
-                        m_oldButton.oldTeamId,
-                        System.Array.IndexOf(m_playerSlots, m_oldButton));
+                        m_newPlayerName);
             
                         if(Network.isServer)
                         {
                             JoinNewSlot(
                                 m_newTeamID,
                                 m_newTeamColorID,
-                                m_newPlayerName,
-                                TeamData.TeamIDByColor(m_oldButton.oldTeam),
-                                m_oldButton.oldTeamId,
-                                System.Array.IndexOf(m_playerSlots, m_oldButton));
+                                m_newPlayerName);
                         }
                 }
                 else
@@ -148,8 +154,7 @@ public class ServerLobbyPanel : MonoBehaviour {
                         JoinNewSlot(
                             m_newTeamID,
                             m_newTeamColorID,
-                            m_newPlayerName,
-                            0, 0, 0);
+                            m_newPlayerName);
                     }
                     else
                     {
@@ -157,8 +162,7 @@ public class ServerLobbyPanel : MonoBehaviour {
                             RPCMode.Server,
                             m_newTeamID,
                             m_newTeamColorID,
-                            m_newPlayerName,
-                            0, 0, 0);
+                            m_newPlayerName);
                     }
                 }
                 NetworkManager.Instance.clientPlayerID = m_newTeamID;
@@ -215,18 +219,25 @@ public class ServerLobbyPanel : MonoBehaviour {
     }
 
     [RPC]
-    public void JoinNewSlot(int teamID, int colorID, string playerName, int oldTeam = 0, int oldTeamID = 0, int oldButtonIndex = 0, NetworkMessageInfo info = new NetworkMessageInfo())
+    public void JoinNewSlot(int teamID, int colorID, string playerName, NetworkMessageInfo info = new NetworkMessageInfo())
     {
         Team team = TeamData.TeamColorByID(teamID);
         if(Network.isServer)
         {
             NetworkPlayer result = new NetworkPlayer();
-            foreach (NetworkPlayer player  in m_networkPlayers)
+            if(info.sender.ipAddress != Network.player.ipAddress)
             {
-                if(player.ipAddress == info.sender.ipAddress)
+                foreach (NetworkPlayer player in m_networkPlayers)
                 {
-                    result = player;
+                    if (player.ipAddress == info.sender.ipAddress)
+                    {
+                        result = player;
+                    }
                 }
+            }
+            else
+            {
+                result = Network.player;
             }
             m_gameLobby.JoinTeam(team, new Player(playerName, team, result), teamID);
             UpdateTeamSlot(colorID, teamID, playerName, false);
@@ -249,8 +260,11 @@ public class ServerLobbyPanel : MonoBehaviour {
     [RPC]
     public void ResetButton(int teamID, int playerID)
     {
-        transform.FindChild("Teams").FindChild("" + TeamData.TeamColorByID(teamID)).FindChild("" + playerID).GetComponent<NetworkView>().RPC("ResetButton", RPCMode.AllBuffered);
-        transform.FindChild("Teams").FindChild("" + TeamData.TeamColorByID(teamID)).FindChild("" + playerID).GetComponent<JoinTeamButton>().ResetButton();
+        if(!ServerMaster.Instance.isInSession)
+        {
+            transform.FindChild("Teams").FindChild("" + TeamData.TeamColorByID(teamID)).FindChild("" + playerID).GetComponent<NetworkView>().RPC("ResetButton", RPCMode.AllBuffered);
+            transform.FindChild("Teams").FindChild("" + TeamData.TeamColorByID(teamID)).FindChild("" + playerID).GetComponent<JoinTeamButton>().ResetButton();
+        }
     }
 
     [RPC]

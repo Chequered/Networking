@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 22a426332c1568c4f944836b5309db6d
-timeCreated: 1433971160
+timeCreated: 1434277485
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -78,6 +78,126 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
+    - name: Char_Red_Atk_Hor_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 563
+        width: 93
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 563
+        width: 93
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 563
+        width: 93
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 563
+        width: 110
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 563
+        width: 110
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 452
+        width: 111
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 452
+        width: 112
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 452
+        width: 112
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_8
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 452
+        width: 113
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_9
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 452
+        width: 114
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 341
+        width: 113
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 341
+        width: 113
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_12
       rect:
         serializedVersion: 2
@@ -85,8 +205,8 @@ TextureImporter:
         y: 341
         width: 114
         height: 67
-      alignment: 9
-      pivot: {x: .730552256, y: .0941084698}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_13
       rect:
@@ -95,8 +215,8 @@ TextureImporter:
         y: 341
         width: 114
         height: 67
-      alignment: 9
-      pivot: {x: .731048048, y: .106203906}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_14
       rect:
@@ -105,8 +225,8 @@ TextureImporter:
         y: 341
         width: 114
         height: 67
-      alignment: 9
-      pivot: {x: .737091601, y: .0971820876}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_15
       rect:
@@ -115,8 +235,8 @@ TextureImporter:
         y: 230
         width: 114
         height: 67
-      alignment: 9
-      pivot: {x: .73791635, y: .0950779691}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_16
       rect:
@@ -125,8 +245,8 @@ TextureImporter:
         y: 230
         width: 115
         height: 67
-      alignment: 9
-      pivot: {x: .745917797, y: .110205121}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_17
       rect:
@@ -135,8 +255,8 @@ TextureImporter:
         y: 230
         width: 115
         height: 67
-      alignment: 9
-      pivot: {x: .739834964, y: .0943589881}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_18
       rect:
@@ -146,7 +266,7 @@ TextureImporter:
         width: 150
         height: 104
       alignment: 9
-      pivot: {x: .305358887, y: .0661249906}
+      pivot: {x: .272735596, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_19
       rect:
@@ -156,7 +276,7 @@ TextureImporter:
         width: 150
         height: 104
       alignment: 9
-      pivot: {x: .301658928, y: .0603254773}
+      pivot: {x: .272735596, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_20
       rect:
@@ -166,7 +286,7 @@ TextureImporter:
         width: 150
         height: 104
       alignment: 9
-      pivot: {x: .301980346, y: .0496532731}
+      pivot: {x: .272735596, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_21
       rect:
@@ -176,7 +296,7 @@ TextureImporter:
         width: 116
         height: 76
       alignment: 9
-      pivot: {x: .0839764848, y: .0698487163}
+      pivot: {x: .048180677, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_22
       rect:
@@ -186,7 +306,7 @@ TextureImporter:
         width: 116
         height: 76
       alignment: 9
-      pivot: {x: .0939599425, y: .0619130395}
+      pivot: {x: .0481806807, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_23
       rect:
@@ -196,7 +316,7 @@ TextureImporter:
         width: 116
         height: 76
       alignment: 9
-      pivot: {x: .103112586, y: .0758827627}
+      pivot: {x: .0481806807, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_24
       rect:
@@ -206,7 +326,7 @@ TextureImporter:
         width: 117
         height: 58
       alignment: 9
-      pivot: {x: .0910399333, y: .109000631}
+      pivot: {x: .0481806807, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_25
       rect:
@@ -216,7 +336,7 @@ TextureImporter:
         width: 117
         height: 59
       alignment: 9
-      pivot: {x: .100937866, y: .107153311}
+      pivot: {x: .0481806807, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_26
       rect:
@@ -226,17 +346,27 @@ TextureImporter:
         width: 117
         height: 61
       alignment: 9
-      pivot: {x: .0875322372, y: .105219826}
+      pivot: {x: .0481806807, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Char_Red_Atk_Hor_27
       rect:
         serializedVersion: 2
         x: 466
-        y: 9
+        y: 8
         width: 117
         height: 61
       alignment: 9
-      pivot: {x: .0957826823, y: .0945423171}
+      pivot: {x: .0481806807, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Char_Red_Atk_Hor_28
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 8
+        width: 93
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

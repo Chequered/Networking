@@ -13,14 +13,19 @@ public class TeamData {
     public TeamData(Team teamColor) {
         m_players = new Player[4];
         m_team = teamColor;
-        m_resources = TEAM_STARTING_RESOURCES;
+        AddResources(TEAM_STARTING_RESOURCES);
+    }
+
+    public void OnServerEvent()
+    {
+
     }
 
     public void AddNewPlayer(Player player, int id)
     {
         if(m_amountOfMembers + 1 > 4)
         {
-            Debug.Log("your are try to join a full team");
+            CanvasManager.Instance.PopUp("Failed to Join", "The team you are trying to join is full, please join another team.");
             return;
         }
         else
@@ -75,20 +80,26 @@ public class TeamData {
         {
             m_resources = 0;
         }
-        //TODO: Update UI;
+        UpdateResourceUI();
     }
 
     public void AddResources(int resourcesToAdd)
     {
         m_resources += resourcesToAdd;
-        //TODO: Update UI;
+        UpdateResourceUI();
+    }
+
+    private void UpdateResourceUI()
+    {
+        CanvasManager.Instance.UpdateResourceUI(m_resources, TeamIDByColor(m_team));
+        CanvasManager.Instance.GetComponent<NetworkView>().RPC("UpdateResourceUI", RPCMode.AllBuffered, m_resources, TeamIDByColor(m_team));
     }
 
     public static int TeamIDByColor(Team color)
     {
         switch (color)
 	    {
-            case Team.Blue:
+            case Team.Purple:
                 return 1;
             case Team.Red:
                 return 2;
@@ -106,7 +117,7 @@ public class TeamData {
         switch (ID)
 	    {
             case 1:
-                return Team.Blue;
+                return Team.Purple;
             case 2:
                 return Team.Red;
             case 3:
@@ -122,8 +133,8 @@ public class TeamData {
     {
         switch (teamName)
         {
-            case "Blue":
-                return Team.Blue;
+            case "Purple":
+                return Team.Purple;
             case "Red":
                 return Team.Red;
             case "Yellow":

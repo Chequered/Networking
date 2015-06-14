@@ -32,20 +32,40 @@ public class SceneManager : MonoBehaviour {
     {
         SpawnPlayer();
         CanvasManager.Instance.CloseAllMenus();
+        CanvasManager.Instance.ShowGameUI();
         GridManager.Instance.GenerateGrid();
+        BuildingManager.Instance.BuildStartingBuildings();
+        if(Network.isServer)
+        {
+            ServerMaster.Instance.isInSession = true;
+        }
     }
 
     private void SpawnPlayer()
     {
-        CanvasManager.Instance.PopUp("Team", TeamData.TeamColorByID(NetworkManager.Instance.clientTeamID).ToString());
         m_playerObject = Network.Instantiate(Resources.Load("Player/Player " + TeamData.TeamColorByID(NetworkManager.Instance.clientTeamID).ToString()) as GameObject, Vector2.zero, Quaternion.identity, 0) as GameObject;
         m_playerObject.GetComponent<NetworkView>().RPC("SetPlayerName", RPCMode.AllBuffered, NetworkManager.Instance.clientPlayerName);
         m_playerObject.GetComponent<PlayerInfo>().SetPlayerName(NetworkManager.Instance.clientPlayerName);
+        m_playerObject.GetComponent<NetworkView>().RPC("SetTeam", RPCMode.AllBuffered, NetworkManager.Instance.clientTeamID);
+        m_playerObject.GetComponent<PlayerInfo>().SetTeam(NetworkManager.Instance.clientTeamID);
+        m_playerObject.GetComponent<NetworkView>().RPC("SetStats", RPCMode.AllBuffered, Player.STARTING_DAMAGE);
+        m_playerObject.GetComponent<PlayerInfo>().SetStats(Player.STARTING_DAMAGE);
+    }
+
+    private IEnumerator WaitForRespawnTimer()
+    {
+        yield return new WaitForSeconds(10);
+        SpawnPlayer();
+    }
+
+    public void Respawn()
+    {
+        StartCoroutine(WaitForRespawnTimer());
     }
 
     private void OnDisconnectedFromServer(NetworkDisconnection info)
     {
-        Application.LoadLevel(0);
         CanvasManager.Instance.PopUp("Lost Connection", "Connection to the game has been lost. Either the host closed the server or there is something wrong with your internet connection");
+        Application.LoadLevel(0);
     }
 }

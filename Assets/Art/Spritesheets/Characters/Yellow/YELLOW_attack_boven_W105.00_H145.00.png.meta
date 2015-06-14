@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: e8d37df0dcb935a4d9149547397b7118
+timeCreated: 1434278374
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: YELLOW_attack_boven_W105.00_H145.00_0
+    21300002: YELLOW_attack_boven_W105.00_H145.00_1
+    21300004: YELLOW_attack_boven_W105.00_H145.00_2
+    21300006: YELLOW_attack_boven_W105.00_H145.00_3
+    21300008: YELLOW_attack_boven_W105.00_H145.00_4
+    21300010: YELLOW_attack_boven_W105.00_H145.00_5
+    21300012: YELLOW_attack_boven_W105.00_H145.00_6
+    21300014: YELLOW_attack_boven_W105.00_H145.00_7
+    21300016: YELLOW_attack_boven_W105.00_H145.00_8
+    21300018: YELLOW_attack_boven_W105.00_H145.00_9
+    21300020: YELLOW_attack_boven_W105.00_H145.00_10
+    21300022: YELLOW_attack_boven_W105.00_H145.00_11
+    21300024: YELLOW_attack_boven_W105.00_H145.00_12
+    21300026: YELLOW_attack_boven_W105.00_H145.00_13
+    21300028: YELLOW_attack_boven_W105.00_H145.00_14
+    21300030: YELLOW_attack_boven_W105.00_H145.00_15
+    21300032: YELLOW_attack_boven_W105.00_H145.00_16
+    21300034: YELLOW_attack_boven_W105.00_H145.00_17
+    21300036: YELLOW_attack_boven_W105.00_H145.00_18
+    21300038: YELLOW_attack_boven_W105.00_H145.00_19
+    21300040: YELLOW_attack_boven_W105.00_H145.00_20
+    21300042: YELLOW_attack_boven_W105.00_H145.00_21
+    21300044: YELLOW_attack_boven_W105.00_H145.00_22
+    21300046: YELLOW_attack_boven_W105.00_H145.00_23
+    21300048: YELLOW_attack_boven_W105.00_H145.00_24
+    21300050: YELLOW_attack_boven_W105.00_H145.00_25
+    21300052: YELLOW_attack_boven_W105.00_H145.00_26
+    21300054: YELLOW_attack_boven_W105.00_H145.00_27
+    21300056: YELLOW_attack_boven_W105.00_H145.00_28
+    21300058: YELLOW_attack_boven_W105.00_H145.00_29
+    21300060: YELLOW_attack_boven_W105.00_H145.00_30
+    21300062: YELLOW_attack_boven_W105.00_H145.00_31
+    21300064: YELLOW_attack_boven_W105.00_H145.00_32
+    21300066: YELLOW_attack_boven_W105.00_H145.00_33
+    21300068: YELLOW_attack_boven_W105.00_H145.00_34
+    21300070: YELLOW_attack_boven_W105.00_H145.00_35
+    21300072: YELLOW_attack_boven_W105.00_H145.00_36
+    21300074: YELLOW_attack_boven_W105.00_H145.00_37
+    21300076: YELLOW_attack_boven_W105.00_H145.00_38
+    21300078: YELLOW_attack_boven_W105.00_H145.00_39
+    21300080: YELLOW_attack_boven_W105.00_H145.00_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: YELLOW_attack_boven_W105.00_H145.00_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 925
+        width: 98
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 925
+        width: 98
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 925
+        width: 98
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 925
+        width: 93
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 925
+        width: 88
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_5
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 925
+        width: 82
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 779
+        width: 77
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 779
+        width: 57
+        height: 58
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 779
+        width: 57
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 779
+        width: 57
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 779
+        width: 56
+        height: 65
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 779
+        width: 56
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 633
+        width: 56
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 633
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 607
+        width: 56
+        height: 92
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 605
+        width: 56
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 602
+        width: 56
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_17
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 600
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 451
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 451
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 451
+        width: 56
+        height: 89
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 451
+        width: 56
+        height: 89
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_22
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 451
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 449
+        width: 56
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 341
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 341
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 341
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_27
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 341
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_28
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 341
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_29
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 341
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 195
+        width: 56
+        height: 68
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 195
+        width: 56
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 195
+        width: 56
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 195
+        width: 56
+        height: 58
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 195
+        width: 56
+        height: 55
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_35
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 195
+        width: 56
+        height: 55
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 49
+        width: 59
+        height: 55
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_37
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 49
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_38
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 49
+        width: 98
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_39
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 49
+        width: 98
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_attack_boven_W105.00_H145.00_40
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 49
+        width: 98
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

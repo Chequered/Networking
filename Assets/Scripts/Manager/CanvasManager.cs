@@ -15,6 +15,7 @@ public class CanvasManager : MonoBehaviour {
     public GameObject pauseMenu;
     public GameObject serverList;
     public GameObject serverLobby;
+    public GameUIManager gameUI;
 
     public void CloseAllMenus()
     {
@@ -27,5 +28,17 @@ public class CanvasManager : MonoBehaviour {
     {
         popupPanel.OpenPanel();
         popupPanel.Message(title, message);
+    }
+
+    [RPC]
+    public void UpdateResourceUI(int resources, int teamID)
+    {
+        if(NetworkManager.Instance.clientTeamID == teamID)
+            gameUI.UpdateResources(resources);
+    }
+
+    public void ShowGameUI()
+    {
+        gameUI.Show();
     }
 }

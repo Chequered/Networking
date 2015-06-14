@@ -14,10 +14,22 @@ public class GameLobby {
         m_teams = new TeamData[4];
         m_teamResources = new int[4];
 
-        m_teams[0] = new TeamData(Team.Blue);
+        m_teams[0] = new TeamData(Team.Purple);
         m_teams[1] = new TeamData(Team.Red);
         m_teams[2] = new TeamData(Team.Yellow);
         m_teams[3] = new TeamData(Team.Green);
+    }
+
+    public void OnServerEvent()
+    {
+        List<Building> buildings = BuildingManager.Instance.GetBuildings();
+        foreach (Building building in buildings)
+        {
+            if(building.Type == BuildingType.Drill && building.Team != Team.None) 
+            {
+                m_teams[TeamData.TeamIDByColor(building.Team) - 1].AddResources(10);
+            }
+        }
     }
 
     public TeamData[] Teams
@@ -107,6 +119,7 @@ public class GameLobby {
 
     public TeamData GetTeam(Team teamColor)
     {
+        Debug.Log(teamColor);
         foreach (TeamData team in m_teams)
         {
             if (team.Color == teamColor)

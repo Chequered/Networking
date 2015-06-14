@@ -1,19 +1,49 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ServerMaster : MonoBehaviour {
 
     public static ServerMaster Instance;
-    //TODO: replace later with GameObject.FindObjectOfType
 
     [HideInInspector] public bool isInSession = false;
 
     private GameLobby m_lobby;
     private bool m_isClient;
 
+    private float eventCooldown;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public void StartGame()
     {
         isInSession = true;
+        eventCooldown = Time.time + 5;
+    }
+
+    private void Update()
+    {
+        if(!m_isClient && isInSession)
+        {
+            if(Time.time > eventCooldown)
+            {
+                m_lobby.OnServerEvent();
+                eventCooldown = Time.time + 5;
+            }
+        }
+    }
+
+    [RPC]
+    public void StartCapture(int unqiueBuildingID, int teamID)
+    {
+        List<Building> buildings = BuildingManager.Instance.GetBuildings();
+        if(buildings[unqiueBuildingID].ProgressCapture(teamID) >= 100)
+        {
+            buildings[unqiueBuildingID].ChangeTeam(teamID);
+        }
     }
 
     public GameLobby Lobby

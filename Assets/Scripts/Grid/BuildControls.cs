@@ -42,7 +42,6 @@ public class BuildControls : MonoBehaviour {
                         if(m_buildMode != BuildMode.None)
                             BuildBuilding(x, y);
                     }
-                    Debug.Log("Can Build");
                 }
                 else
                 {
@@ -67,9 +66,13 @@ public class BuildControls : MonoBehaviour {
 
     private void BuildBuilding(int x, int y)
     {
-        if (BuildingManager.Instance.BuildBuilding(x, y, Building.TypeByMode(m_buildMode)) != null)
+        if(Network.isServer)
         {
-            //play anim;
+            BuildingManager.Instance.BuildBuilding( x, y, Building.IdByType(Building.TypeByMode(m_buildMode)), NetworkManager.Instance.clientTeamID);
+        }
+        else
+        {
+            BuildingManager.Instance.GetComponent<NetworkView>().RPC("BuildBuilding", RPCMode.Server, x, y, Building.IdByType(Building.TypeByMode(m_buildMode)), NetworkManager.Instance.clientTeamID);
         }
     }
 }

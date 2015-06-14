@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 9d94c0bbbb5096440a0dbd6781373e0c
+timeCreated: 1434278810
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GREEN_attack_boven_W90.00_H145.00_0
+    21300002: GREEN_attack_boven_W90.00_H145.00_1
+    21300004: GREEN_attack_boven_W90.00_H145.00_2
+    21300006: GREEN_attack_boven_W90.00_H145.00_3
+    21300008: GREEN_attack_boven_W90.00_H145.00_4
+    21300010: GREEN_attack_boven_W90.00_H145.00_5
+    21300012: GREEN_attack_boven_W90.00_H145.00_6
+    21300014: GREEN_attack_boven_W90.00_H145.00_7
+    21300016: GREEN_attack_boven_W90.00_H145.00_8
+    21300018: GREEN_attack_boven_W90.00_H145.00_9
+    21300020: GREEN_attack_boven_W90.00_H145.00_10
+    21300022: GREEN_attack_boven_W90.00_H145.00_11
+    21300024: GREEN_attack_boven_W90.00_H145.00_12
+    21300026: GREEN_attack_boven_W90.00_H145.00_13
+    21300028: GREEN_attack_boven_W90.00_H145.00_14
+    21300030: GREEN_attack_boven_W90.00_H145.00_15
+    21300032: GREEN_attack_boven_W90.00_H145.00_16
+    21300034: GREEN_attack_boven_W90.00_H145.00_17
+    21300036: GREEN_attack_boven_W90.00_H145.00_18
+    21300038: GREEN_attack_boven_W90.00_H145.00_19
+    21300040: GREEN_attack_boven_W90.00_H145.00_20
+    21300042: GREEN_attack_boven_W90.00_H145.00_21
+    21300044: GREEN_attack_boven_W90.00_H145.00_22
+    21300046: GREEN_attack_boven_W90.00_H145.00_23
+    21300048: GREEN_attack_boven_W90.00_H145.00_24
+    21300050: GREEN_attack_boven_W90.00_H145.00_25
+    21300052: GREEN_attack_boven_W90.00_H145.00_26
+    21300054: GREEN_attack_boven_W90.00_H145.00_27
+    21300056: GREEN_attack_boven_W90.00_H145.00_28
+    21300058: GREEN_attack_boven_W90.00_H145.00_29
+    21300060: GREEN_attack_boven_W90.00_H145.00_30
+    21300062: GREEN_attack_boven_W90.00_H145.00_31
+    21300064: GREEN_attack_boven_W90.00_H145.00_32
+    21300066: GREEN_attack_boven_W90.00_H145.00_33
+    21300068: GREEN_attack_boven_W90.00_H145.00_34
+    21300070: GREEN_attack_boven_W90.00_H145.00_35
+    21300072: GREEN_attack_boven_W90.00_H145.00_36
+    21300074: GREEN_attack_boven_W90.00_H145.00_37
+    21300076: GREEN_attack_boven_W90.00_H145.00_38
+    21300078: GREEN_attack_boven_W90.00_H145.00_39
+    21300080: GREEN_attack_boven_W90.00_H145.00_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GREEN_attack_boven_W90.00_H145.00_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 775
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 775
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 775
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 775
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 775
+        width: 72
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 775
+        width: 68
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_6
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 775
+        width: 64
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 629
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 629
+        width: 57
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 629
+        width: 57
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 629
+        width: 56
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_11
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 629
+        width: 56
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_12
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 629
+        width: 56
+        height: 66
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 629
+        width: 56
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 473
+        width: 56
+        height: 76
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_15
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 471
+        width: 56
+        height: 75
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_16
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 468
+        width: 56
+        height: 75
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 466
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 463
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_19
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 463
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 462
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 315
+        width: 56
+        height: 75
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 315
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_23
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 298
+        width: 56
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 337
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_25
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 337
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_26
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 337
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 337
+        width: 56
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_28
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 191
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_29
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 191
+        width: 56
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_30
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 191
+        width: 56
+        height: 73
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 191
+        width: 56
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_32
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 191
+        width: 56
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_33
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 191
+        width: 56
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_34
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 191
+        width: 56
+        height: 70
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 45
+        width: 56
+        height: 69
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 45
+        width: 57
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_37
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 45
+        width: 62
+        height: 65
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 45
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_39
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 45
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GREEN_attack_boven_W90.00_H145.00_40
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 45
+        width: 81
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
