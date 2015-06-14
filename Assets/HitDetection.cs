@@ -7,10 +7,16 @@ public class HitDetection : MonoBehaviour
     private List<GameObject> entitiesInArea;
     public PlayerInfo m_player;
 
+<<<<<<< HEAD
     private void Start()
     {
         entitiesInArea = new List<GameObject>();
     }
+=======
+	void Update()
+	{
+	}
+>>>>>>> 53ff0d21d8ada1c096d45f3b5ddb70923c9a0f18
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
