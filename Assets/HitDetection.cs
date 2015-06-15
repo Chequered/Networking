@@ -8,6 +8,7 @@ public class HitDetection : MonoBehaviour
 
 	void Update()
 	{
+
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
@@ -32,6 +33,5 @@ public class HitDetection : MonoBehaviour
 		{
 			Destroy(col.gameObject);
 		}
-
 	}
 }
