@@ -19,20 +19,19 @@ public class NetworkManager : MonoBehaviour
     private float m_refreshRequestLength = 1.25f;
     private NetworkView m_networkView;
 
-    private void Start()
+    private void Awake()
     {
         Instance = this;
+    }
+
+    private void Start()
+    {
         m_networkView = GetComponent<NetworkView>();
 
         //MasterServer.ipAddress = IP;
         //MasterServer.port = PORT;
         //Network.natFacilitatorIP = IP;
         //Network.natFacilitatorPort = 50005;
-    }
-
-    void Update()
-    {
-        Debug.Log(clientTeamID);
     }
 
 	public void StartGame()

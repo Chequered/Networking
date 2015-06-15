@@ -21,13 +21,4 @@ public class StartGameButton : MonoBehaviour {
     {
         GetComponent<Button>().interactable = true;
     }
-
-    public void StartGame()
-    {
-        if (Network.isServer)
-        {
-            if(ServerLobbyPanel.Instance.HasEnoughPlayers)
-                NetworkManager.Instance.StartGame();
-        }
-    }
 }

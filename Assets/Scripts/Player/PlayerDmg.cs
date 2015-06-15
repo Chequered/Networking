@@ -16,43 +16,39 @@ public class PlayerDmg : MonoBehaviour
 	[SerializeField] private GameObject _rightDetect;
 	[SerializeField] private GameObject _downDetect;
 
+    public bool isPlayer;
+
 	private Directions _direction;
 
-	void Update()
-	{
-		switch (_direction) 
-		{
-			//case Directions.up:_upDetect	//getComponent<HitDetection>().hitDetected();
-			//break;
-			//case Directions.left:_leftDetect //getComponent<HitDetection().HitDetected();
-			//break;
-			//case Directions.right:_rightDetect //getComponent<HitDetection().hitDetected();
-			//break;
-			//case Directions.down: _DownDetect //getComponent<HitDetection().hitDetected();
-		}
-	}
+    public void Attack(int dir)
+    {
+        Debug.LogError("Attack: " + dir);
+        switch (dir)
+        {
+            case 1:
+            _leftDetect.GetComponent<HitDetection>().Attack();
+            break;
+            case 2:
+            _rightDetect.GetComponent<HitDetection>().Attack();
+            break;
+            case 3:
+            _downDetect.GetComponent<HitDetection>().Attack();
+            break;
+            case 4:
+            _upDetect.GetComponent<HitDetection>().Attack();
+            break;
 
+        }
+    }
 
-	void OnTriggerEnter(Collider col)
-	{
-		if (Input.GetKeyDown (KeyCode.UpArrow)) 
-		{
-			_upDetect.GetComponent<HitDetection>().Attack();
-		}
-
-		if (Input.GetKeyDown (KeyCode.LeftArrow)) 
-		{
-			_leftDetect.GetComponent<HitDetection>().Attack();
-		}
-
-		if (Input.GetKeyDown (KeyCode.RightArrow)) 
-		{
-			_rightDetect.GetComponent<HitDetection>().Attack();
-		}
-
-		if (Input.GetKeyDown (KeyCode.DownArrow)) 
-		{
-			_downDetect.GetComponent<HitDetection>().Attack();
-		}
-	}
+    public void Kill()
+    {
+        CanvasManager.Instance.PopUp("COME ON!", "ARE YOU?: " + isPlayer);
+        if (isPlayer)
+        {
+            CanvasManager.Instance.PopUp("DEAD!", "You have been killed, you will respawn in 10 seconds.");
+            Network.Destroy(this.transform.parent.gameObject);
+            SceneManager.Instance.Respawn();
+        }
+    }
 }

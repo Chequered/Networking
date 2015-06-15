@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 6f3305b6e35ec8947afbc073f049b31a
+timeCreated: 1434278411
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: YELLOW_bombgasm_W90.00_H110.00_0
+    21300002: YELLOW_bombgasm_W90.00_H110.00_1
+    21300004: YELLOW_bombgasm_W90.00_H110.00_2
+    21300006: YELLOW_bombgasm_W90.00_H110.00_3
+    21300008: YELLOW_bombgasm_W90.00_H110.00_4
+    21300010: YELLOW_bombgasm_W90.00_H110.00_5
+    21300012: YELLOW_bombgasm_W90.00_H110.00_6
+    21300014: YELLOW_bombgasm_W90.00_H110.00_7
+    21300016: YELLOW_bombgasm_W90.00_H110.00_8
+    21300018: YELLOW_bombgasm_W90.00_H110.00_9
+    21300020: YELLOW_bombgasm_W90.00_H110.00_10
+    21300022: YELLOW_bombgasm_W90.00_H110.00_11
+    21300024: YELLOW_bombgasm_W90.00_H110.00_12
+    21300026: YELLOW_bombgasm_W90.00_H110.00_13
+    21300028: YELLOW_bombgasm_W90.00_H110.00_14
+    21300030: YELLOW_bombgasm_W90.00_H110.00_15
+    21300032: YELLOW_bombgasm_W90.00_H110.00_16
+    21300034: YELLOW_bombgasm_W90.00_H110.00_17
+    21300036: YELLOW_bombgasm_W90.00_H110.00_18
+    21300038: YELLOW_bombgasm_W90.00_H110.00_19
+    21300040: YELLOW_bombgasm_W90.00_H110.00_20
+    21300042: YELLOW_bombgasm_W90.00_H110.00_21
+    21300044: YELLOW_bombgasm_W90.00_H110.00_22
+    21300046: YELLOW_bombgasm_W90.00_H110.00_23
+    21300048: YELLOW_bombgasm_W90.00_H110.00_24
+    21300050: YELLOW_bombgasm_W90.00_H110.00_25
+    21300052: YELLOW_bombgasm_W90.00_H110.00_26
+    21300054: YELLOW_bombgasm_W90.00_H110.00_27
+    21300056: YELLOW_bombgasm_W90.00_H110.00_28
+    21300058: YELLOW_bombgasm_W90.00_H110.00_29
+    21300060: YELLOW_bombgasm_W90.00_H110.00_30
+    21300062: YELLOW_bombgasm_W90.00_H110.00_31
+    21300064: YELLOW_bombgasm_W90.00_H110.00_32
+    21300066: YELLOW_bombgasm_W90.00_H110.00_33
+    21300068: YELLOW_bombgasm_W90.00_H110.00_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: YELLOW_bombgasm_W90.00_H110.00_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 570
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 570
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 570
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 570
+        width: 77
+        height: 72
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 570
+        width: 76
+        height: 70
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 570
+        width: 76
+        height: 67
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 459
+        width: 75
+        height: 63
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 459
+        width: 76
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 459
+        width: 75
+        height: 58
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 459
+        width: 75
+        height: 57
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 459
+        width: 75
+        height: 56
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_11
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 459
+        width: 75
+        height: 56
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 348
+        width: 75
+        height: 55
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 348
+        width: 75
+        height: 54
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 348
+        width: 77
+        height: 62
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_15
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 348
+        width: 79
+        height: 71
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_16
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 348
+        width: 80
+        height: 79
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 348
+        width: 81
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 237
+        width: 79
+        height: 97
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 237
+        width: 79
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_20
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 237
+        width: 79
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_21
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 237
+        width: 78
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 237
+        width: 78
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_23
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 237
+        width: 77
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 126
+        width: 75
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 126
+        width: 77
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 126
+        width: 78
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_27
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 126
+        width: 76
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_28
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 126
+        width: 74
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_29
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 126
+        width: 75
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 15
+        width: 76
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 77
+        height: 102
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_32
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 15
+        width: 79
+        height: 104
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_33
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 15
+        width: 80
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: YELLOW_bombgasm_W90.00_H110.00_34
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 15
+        width: 81
+        height: 107
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
