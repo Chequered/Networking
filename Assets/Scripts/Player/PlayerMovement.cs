@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private BuildMode _buildMode;
     private PlayerGraphics _g;
 
+	private bool hasBomb = false;
+
 	public bool networkBool = true; 
 
 	void Start()
@@ -25,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (_networkView.isMine)
+        if (_networkView.isMine || networkBool)
         {
             PlayerMoveInput();
         }
@@ -43,7 +45,6 @@ public class PlayerMovement : MonoBehaviour
 
 	void PlayerMoveInput()
 	{
-
 		vel = Vector2.zero;
 
         vel.x = Input.GetAxis("Horizontal") * _movementspeed;
@@ -64,12 +65,28 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+		if (Input.GetKey (KeyCode.K)) //pickup bomb
+		{
+			hasBomb = true;
+			GameObject bomb = new GameObject("bomb");
+			bomb.AddComponent<Bomb>();
+			bomb.transform.parent = transform;
+			bomb.transform.position = Vector2.zero;
+		}
+
+		if (Input.GetKey (KeyCode.Space) && hasBomb) 
+		{
+
+			transform.FindChild("bomb").GetComponent<Bomb>().Explode();
+			Destroy(this.gameObject);
+		}
+
         if(vel != Vector2.zero)
         {
             _playerRigid.MovePosition(_playerRigid.position + vel * Time.deltaTime);
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        if (Input.GetKeyUp(KeyCode.LeftArrow)) //attack left
         {
             _g.SwitchDirection(-1);
             _g.Attack(1);
@@ -78,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
             _networkView.RPC("Attack", RPCMode.AllBuffered, 1);
         }
 
-        if(Input.GetKeyUp(KeyCode.RightArrow))
+		if(Input.GetKeyUp(KeyCode.RightArrow)) //attack right
         {
             _g.SwitchDirection(1);
             _g.Attack(2);
@@ -87,13 +104,13 @@ public class PlayerMovement : MonoBehaviour
             _networkView.RPC("Attack", RPCMode.AllBuffered, 2);
         }
 
-        if (Input.GetKeyUp(KeyCode.UpArrow))
+		if (Input.GetKeyUp(KeyCode.UpArrow))//attack up
         {
             _g.Attack(3);
             _networkView.RPC("Attack", RPCMode.AllBuffered, 3);
         }
 
-        if (Input.GetKeyUp(KeyCode.DownArrow))
+		if (Input.GetKeyUp(KeyCode.DownArrow))//attack down
         {
             _g.Attack(4);
             _networkView.RPC("Attack", RPCMode.AllBuffered, 4);

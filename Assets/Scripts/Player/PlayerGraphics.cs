@@ -6,7 +6,8 @@ public enum AnimationState
     None,
     Normal,
     Attack,
-    Bomb
+    Bomb,
+	Death
 }
 
 public class PlayerGraphics : MonoBehaviour {
@@ -29,6 +30,9 @@ public class PlayerGraphics : MonoBehaviour {
     [SerializeField] private Sprite[] m_bombIdleAnimation;
     [SerializeField] private Sprite[] m_bombWalkAnimation;
     [SerializeField] private Sprite[] m_bombSpawnAnimation;
+
+	//Death
+	[SerializeField] private Sprite[] m_deathAnimation;
 
     private AnimationState m_state;
     private PlayerMovement m_movement;
@@ -132,6 +136,9 @@ public class PlayerGraphics : MonoBehaviour {
                 case AnimationState.Bomb:
                     PlayAnimation(m_bombIdleAnimation);
                     break;
+				case AnimationState.Death:
+					PlayAnimation(m_deathAnimation);
+					break;
                 default:
                     break;
             }
@@ -180,6 +187,9 @@ public class PlayerGraphics : MonoBehaviour {
             case AnimationState.Bomb:
                 PlayAnimation(m_bombAtkAnimation);
                 break;
+			case AnimationState.Death:
+				PlayAnimation(m_deathAnimation);
+				break;
             default:
                 break;
         }
@@ -239,6 +249,8 @@ public class PlayerGraphics : MonoBehaviour {
                 return 2;
             case AnimationState.Bomb:
                 return 3;
+			case AnimationState.Death:
+				return 4;
             default:
                 return 0;
         }
@@ -256,6 +268,8 @@ public class PlayerGraphics : MonoBehaviour {
                 return AnimationState.Attack;
             case 3:
                 return AnimationState.Bomb;
+			case 4:
+				return AnimationState.Death;
             default:
                 return AnimationState.None;
         }
